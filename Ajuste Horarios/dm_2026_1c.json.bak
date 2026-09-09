@@ -1,0 +1,1626 @@
+[
+  {
+    "materia": "ÁLGEBRA I",
+    "turno": "mañana",
+    "tipo": "TP1",
+    "profesores": [
+      {
+        "nombre": "Jonathan Barmak",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Sebastián Freyre",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Gabriel Goren Roig",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Lautaro Braslavsky",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Gonzalo Carraux",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Jan Lamas",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Franco Magarian",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Martes",
+      "Viernes"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "ÁLGEBRA I",
+    "turno": "mañana",
+    "tipo": "TP2",
+    "profesores": [
+      {
+        "nombre": "César Massri",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Lola Lopez Menalled",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Manuel Nores",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Martin Mauas",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Joaquín Yranzo Carrillo",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Martes",
+      "Viernes"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "ÁLGEBRA I",
+    "turno": "mañana",
+    "tipo": "TP3",
+    "profesores": [
+      {
+        "nombre": "Pablo Zadunaisky",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Franco Rufolo",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Luciano Pittaluga",
+        "rol": "Ay1"
+      }
+    ],
+    "dias": [
+      "Martes",
+      "Viernes"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "ÁLGEBRA I",
+    "turno": "tarde",
+    "tipo": "TP4",
+    "profesores": [
+      {
+        "nombre": "Isabel Herrero",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Dante Cicchetti",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Yamila Arranz Florek",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Bautista Gilardon",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Juan Martín Perez Garber",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Martes",
+      "Viernes"
+    ],
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00"
+  },
+  {
+    "materia": "ÁLGEBRA I",
+    "turno": "noche",
+    "tipo": "TP5",
+    "profesores": [
+      {
+        "nombre": "Martín Blufstein",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Sebastián Freyre",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Camilo Manuel D'Aloisio",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Micaela Orefice",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Pedro Nicolás Peña",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Franco Zappone",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Martes",
+      "Viernes"
+    ],
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00"
+  },
+  {
+    "materia": "ÁLGEBRA II (LIC. MATEMÁTICA) - TÓPICOS DE ÁLGEBRA II (DOCTORADO)",
+    "turno": "tarde",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Nicolás Sirolli",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Juan Francisco Piombo",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Valentín Nico",
+        "rol": "Ay1"
+      }
+    ],
+    "dias": [
+      "Martes",
+      "Viernes"
+    ],
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00"
+  },
+  {
+    "materia": "ÁLGEBRA LINEAL",
+    "turno": "tarde",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "María Eugenia Rodríguez",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Lucía Busolini",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Tomer Damián Cohen Mizrahi",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Ignacio López",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Bruno Mastropietro",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Martes",
+      "Viernes"
+    ],
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00"
+  },
+  {
+    "materia": "ÁLGEBRA LINEAL COMPUTACIONAL",
+    "turno": "mañana",
+    "tipo": "TP1",
+    "profesores": [
+      {
+        "nombre": "Diego Rial",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Gonzalo Gutierrez",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Florencia Noceti",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Paulo Andrés De Almeida",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Franco Agustín Navarro Cabral",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Martes",
+      "Viernes"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "ÁLGEBRA LINEAL COMPUTACIONAL",
+    "turno": "mañana",
+    "tipo": "TP2",
+    "profesores": [
+      {
+        "nombre": "",
+        "rol": null
+      },
+      {
+        "nombre": "Edwin Pin",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "María Dorda",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Daniel Enrique Cerini",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Nelson Alexander Sisalema Cisneros",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Fidel Nicolás Urrutia",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Martes",
+      "Viernes"
+    ],
+    "hora_inicio": "11:00",
+    "hora_fin": "19:00"
+  },
+  {
+    "materia": "ÁLGEBRA LINEAL COMPUTACIONAL",
+    "turno": "noche",
+    "tipo": "TP3",
+    "profesores": [
+      {
+        "nombre": "Edwin Pin",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "María Dorda",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Daniel Enrique Cerini",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Nelson Alexander Sisalema Cisneros",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Fidel Nicolás Urrutia",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Viernes"
+    ],
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00"
+  },
+  {
+    "materia": "ÁLGEBRA LINEAL COMPUTACIONAL",
+    "turno": "noche",
+    "tipo": "TP4",
+    "profesores": [
+      {
+        "nombre": "Gonzalo Gutierrez",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Florencia Noceti",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Paulo Andrés De Almeida",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Franco Agustín Navarro Cabral",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Viernes"
+    ],
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00"
+  },
+  {
+    "materia": "ÁLGEBRA LINEAL COMPUTACIONAL",
+    "turno": "mañana",
+    "tipo": "PC",
+    "profesores": [
+      {
+        "nombre": "",
+        "rol": null
+      }
+    ],
+    "dias": [
+      "Martes"
+    ],
+    "hora_inicio": "11:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "ÁLGEBRA LINEAL COMPUTACIONAL",
+    "turno": "noche",
+    "tipo": "PC",
+    "profesores": [
+      {
+        "nombre": "",
+        "rol": null
+      }
+    ],
+    "dias": [
+      "Martes"
+    ],
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00"
+  },
+  {
+    "materia": "ANÁLISIS AVANZADO",
+    "turno": "mañana",
+    "tipo": "TP1",
+    "profesores": [
+      {
+        "nombre": "Natalia Accomazzo Scotti",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Florencia Fernández Slezak",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Florencia Marchesano",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Maitena Andersen",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Sol Nabot",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Florencia Fernández Slezak",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Florencia Marchesano",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Maitena Andersen",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Sol Nabot",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Jueves",
+      "Martes"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "ANÁLISIS AVANZADO",
+    "turno": "tarde",
+    "tipo": "TP2",
+    "profesores": [
+      {
+        "nombre": "Natalia Accomazzo Scotti",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Joaquín Singer",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Laura Daniela Cúneo Giménez",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Tomás Martínez Fraga",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Joaquín Singer",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Laura Daniela Cúneo Giménez",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Tomás Martínez Fraga",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Jueves",
+      "Martes"
+    ],
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00"
+  },
+  {
+    "materia": "ANÁLISIS AVANZADO",
+    "turno": "noche",
+    "tipo": "TP3",
+    "profesores": [
+      {
+        "nombre": "Victoria Paternostro",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Darío Martín Aza",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Miguel Berasategui",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Luciano Cassini",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Darío Martín Aza",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Miguel Berasategui",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Luciano Cassini",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Jueves",
+      "Martes"
+    ],
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00"
+  },
+  {
+    "materia": "ANÁLISIS COMPLEJO",
+    "turno": "noche",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Pablo Gustavo Amster",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Carlos Di Fiore",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Manuel Enrique Nores",
+        "rol": "Ay1"
+      }
+    ],
+    "dias": [
+      "Lunes",
+      "Miércoles"
+    ],
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00"
+  },
+  {
+    "materia": "ANÁLISIS FUNCIONAL (LIC. MATEMÁTICA) - TÓPICOS DE ANÁLISIS FUNCIONAL (DOCTORADO)",
+    "turno": "noche",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Gabriel Larotonda",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Iván Rey",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Juan Ignacio Galotto",
+        "rol": "Ay1"
+      }
+    ],
+    "dias": [
+      "Martes",
+      "Viernes"
+    ],
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00"
+  },
+  {
+    "materia": "ANÁLISIS I - ANÁLISIS MATEMÁTICO I - MATEMÁTICA 1 - ANÁLISIS II (COMPUTACIÓN)",
+    "turno": "mañana",
+    "tipo": "TP1",
+    "profesores": [
+      {
+        "nombre": "Pablo Turco",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Lucila Acosta",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Lucía Inés Pedraza",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Hernán Martín Garbarino",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Lucas Ezequiel Lopez Sanchez",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Luciano Pittaluga",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Jueves",
+      "Lunes"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "ANÁLISIS I - ANÁLISIS MATEMÁTICO I - MATEMÁTICA 1 - ANÁLISIS II (COMPUTACIÓN)",
+    "turno": "mañana",
+    "tipo": "TP2",
+    "profesores": [
+      {
+        "nombre": "Gabriel Larotonda",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Mariela Cañizares",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Jazmín Schmunis",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Nahuel Omar Santos Pigozzi",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Jueves",
+      "Lunes"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "ANÁLISIS I - ANÁLISIS MATEMÁTICO I - MATEMÁTICA 1 - ANÁLISIS II (COMPUTACIÓN)",
+    "turno": "mañana",
+    "tipo": "TP3",
+    "profesores": [
+      {
+        "nombre": "Marco Farinati",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Edwin Pin",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Alejandra Gabriela Villegas",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Manuel Robert",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Jueves",
+      "Lunes"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "ANÁLISIS I - ANÁLISIS MATEMÁTICO I - MATEMÁTICA 1 - ANÁLISIS II (COMPUTACIÓN)",
+    "turno": "tarde",
+    "tipo": "TP4",
+    "profesores": [
+      {
+        "nombre": "Sebastián Velazquez",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Melisa Scotti",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Virginia Guevara",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Luciano Pittaluga",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "María Jazmín Rivas",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Jueves",
+      "Lunes"
+    ],
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00"
+  },
+  {
+    "materia": "ANÁLISIS I - ANÁLISIS MATEMÁTICO I - MATEMÁTICA 1 - ANÁLISIS II (COMPUTACIÓN)",
+    "turno": "noche",
+    "tipo": "TP5",
+    "profesores": [
+      {
+        "nombre": "Pablo Luis De Napoli",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Nahuel Albarracín",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Bruno Robbio",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Nicolás Gomez Brucks",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "María del Rosario Lázaro",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Paula Martínez Garbino",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Diego Alejandro Ramos",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Jueves",
+      "Lunes"
+    ],
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00"
+  },
+  {
+    "materia": "ANÁLISIS II - ANÁLISIS MATEMÁTICO II - MATEMÁTICA 3",
+    "turno": "mañana",
+    "tipo": "TP1",
+    "profesores": [
+      {
+        "nombre": "Rocío Balderrama",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "María Cecilia De Vita",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Tomás Fernández Vidal",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Mateo Gómez Damico",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Kevin Luna Haro",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Lunes",
+      "Miércoles"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "ANÁLISIS II - ANÁLISIS MATEMÁTICO II - MATEMÁTICA 3",
+    "turno": "mañana",
+    "tipo": "TP2",
+    "profesores": [
+      {
+        "nombre": "Guillermo Henry",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Juan Rodrigo Zuccotti",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Paloma Lucía Ramírez",
+        "rol": "Ay1"
+      }
+    ],
+    "dias": [
+      "Lunes",
+      "Miércoles"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "ANÁLISIS II - ANÁLISIS MATEMÁTICO II - MATEMÁTICA 3",
+    "turno": "tarde",
+    "tipo": "TP3",
+    "profesores": [
+      {
+        "nombre": "Guillermo Henry",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Román Villafañe",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Santiago Varela",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Fiorella Sol Beck",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Lunes",
+      "Miércoles"
+    ],
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00"
+  },
+  {
+    "materia": "ANÁLISIS II - ANÁLISIS MATEMÁTICO II - MATEMÁTICA 3",
+    "turno": "noche",
+    "tipo": "TP4",
+    "profesores": [
+      {
+        "nombre": "Andrea Olivo",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Marcelo Paredes",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Alejandra Gabriela Villegas",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Ulises Wainstein Haimovichi",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Octavio Palacio",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Lunes",
+      "Miércoles"
+    ],
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00"
+  },
+  {
+    "materia": "ANÁLISIS REAL - MEDIDA Y PROBABILIDAD",
+    "turno": "tarde",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Daniel Germán Carando",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Dante Grevino",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Mateo Mauri",
+        "rol": "Ay1"
+      }
+    ],
+    "dias": [
+      "Jueves",
+      "Lunes"
+    ],
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00"
+  },
+  {
+    "materia": "CÁLCULO AVANZADO",
+    "turno": "mañana",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Paula Kuna",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Guido Arnone",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Juan Manuel Menconi",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Iván Moyano Tassara",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Martes",
+      "Viernes"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "ELEMENTOS DE CÁLCULO NUMÉRICO - CÁLCULO NUMÉRICO",
+    "turno": "mañana",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Martin Maas",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Alejandra Aguilera Aguilera",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Gastón Mazzei",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Tamara Polo",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Casiel Estragó",
+        "rol": "Ay2"
+      },
+      {
+        "nombre": "Numa Ho Grinberg",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Lunes",
+      "Miércoles"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "ESTADÍSTICA (LIC. MATEMÁTICA) - INTR. A LA ESTADÍSTICA Y CIENCIA DE DATOS (LCD) - TÓPICOS DE ESTADÍSTICA (DOC)",
+    "turno": "mañana",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "",
+        "rol": null
+      },
+      {
+        "nombre": "",
+        "rol": null
+      }
+    ],
+    "dias": [
+      "Jueves",
+      "Lunes"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "13:00"
+  },
+  {
+    "materia": "GEOMETRÍA DIFERENCIAL (LIC. MATEMÁTICA) - TÓPICOS DE GEOMETRÍA DIFERENCIAL (DOCTORADO)",
+    "turno": "noche",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Jorge Devoto",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Pablo Perrella",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Francisco Valdez",
+        "rol": "Ay1"
+      }
+    ],
+    "dias": [
+      "Jueves",
+      "Lunes"
+    ],
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00"
+  },
+  {
+    "materia": "GEOMETRÍA (PROFESORADO)",
+    "turno": "mañana",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Martin Mereb",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Agustin Barreto",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Camila Mildiner",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Lunes",
+      "Miércoles"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "INTRODUCCIÓN AL MODELADO CONTINUO",
+    "turno": "tarde",
+    "tipo": "PC",
+    "profesores": [
+      {
+        "nombre": "Eduardo Honore",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Francisco Valdez",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Sofía Mora Maldonado",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Miércoles"
+    ],
+    "hora_inicio": "14:00",
+    "hora_fin": "18:00"
+  },
+  {
+    "materia": "INVESTIGACIÓN OPERATIVA (LIC. MATEMÁTICA) - INTR. A LA INVESTIGACIÓN OPERATIVA Y OPTIMIZACIÓN (LCD) - TÓPICOS DE INVESTIGACIÓN OPERATIVA (DOC)",
+    "turno": "mañana",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "",
+        "rol": null
+      },
+      {
+        "nombre": "",
+        "rol": null
+      }
+    ],
+    "dias": [
+      "Martes",
+      "Viernes"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "13:00"
+  },
+  {
+    "materia": "MATEMÁTICA 2",
+    "turno": "tarde",
+    "tipo": "TP1",
+    "profesores": [
+      {
+        "nombre": "Francisco Bersetche",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Emiliano Acri",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Franco Arrejoria",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Alina Chocron",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Jueves"
+    ],
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00"
+  },
+  {
+    "materia": "MATEMÁTICA 2",
+    "turno": "noche",
+    "tipo": "TP2",
+    "profesores": [
+      {
+        "nombre": "Francisco Bersetche",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Emiliano Acri",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Franco Arrejoria",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Alina Chocron",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Jueves"
+    ],
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00"
+  },
+  {
+    "materia": "MATEMÁTICA 4 - ANÁLISIS MATEMÁTICO III",
+    "turno": "mañana",
+    "tipo": "TP1",
+    "profesores": [
+      {
+        "nombre": "Marco Farinati",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Patricia Jancsa",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Nicolas Ibañez",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Catalina Silva",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Martes",
+      "Viernes"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "MATEMÁTICA 4 - ANÁLISIS MATEMÁTICO III",
+    "turno": "noche",
+    "tipo": "TP2",
+    "profesores": [
+      {
+        "nombre": "Maria Eugenia Di Iorio",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Patricia Jancsa",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Juan Ignacio Gargano",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Nicolás Villagran Dos Santos",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Martes",
+      "Viernes"
+    ],
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00"
+  },
+  {
+    "materia": "MATEMÁTICA I (BIOLOGÍA)",
+    "turno": "mañana",
+    "tipo": "TP1",
+    "profesores": [
+      {
+        "nombre": "Sandra Martínez",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "María Laura Ruggieri",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Juan Sebastián Castaño Cruz",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Juan Laurnagaray",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Sergio Alvarez",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Lunes",
+      "Miércoles"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "MATEMÁTICA I (BIOLOGÍA)",
+    "turno": "tarde",
+    "tipo": "TP2",
+    "profesores": [
+      {
+        "nombre": "María Gabriela Armentano",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Rocío Nores",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Victoria Caillet Bois",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Aaron Otto Klarreich",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Lunes",
+      "Miércoles"
+    ],
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00"
+  },
+  {
+    "materia": "MATEMÁTICA I (BIOLOGÍA)",
+    "turno": "noche",
+    "tipo": "TP3",
+    "profesores": [
+      {
+        "nombre": "Virginia Guevara",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Dante Cicchetti",
+        "rol": "Ay1"
+      }
+    ],
+    "dias": [
+      "Lunes",
+      "Miércoles"
+    ],
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00"
+  },
+  {
+    "materia": "MATEMÁTICA II (BIOLOGÍA)",
+    "turno": "mañana",
+    "tipo": "TP1",
+    "profesores": [
+      {
+        "nombre": "Mercedes Pérez Millán",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "G. Sebastián Pedersen",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Santiago Guadalupe",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Israel Jaime",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Lunes",
+      "Miércoles"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "MATEMÁTICA II (BIOLOGÍA)",
+    "turno": "noche",
+    "tipo": "TP2",
+    "profesores": [
+      {
+        "nombre": "María Lorena Stockdale",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Santiago Guadalupe",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Matías Wolosiuk",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Lunes",
+      "Miércoles"
+    ],
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00"
+  },
+  {
+    "materia": "PROBABILIDADES Y ESTADÍSTICA (COMPUTACIÓN)",
+    "turno": "noche",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Inés Armendariz",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Agustin Damonte",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Leonard Ehrhorn",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Facundo Zanola",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Jueves",
+      "Lunes"
+    ],
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00"
+  },
+  {
+    "materia": "PROBABILIDADES Y ESTADÍSTICA (LIC. MATEMÁTICA) - PROBABILIDAD (LCD)",
+    "turno": "mañana",
+    "tipo": "TP1",
+    "profesores": [
+      {
+        "nombre": "Pablo Blanc",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Matías Saucedo",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Fiorella Sol Beck",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Laura Rodríguez Pardina",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Sara Elina Arce Gatti",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Jueves",
+      "Martes"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "PROBABILIDADES Y ESTADÍSTICA (LIC. MATEMÁTICA) - PROBABILIDAD (LCD)",
+    "turno": "noche",
+    "tipo": "TP2",
+    "profesores": [
+      {
+        "nombre": "Mariano Merzbacher",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Juan Costa Ponce",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Javier Roberto Abalo",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Joaquín Viera",
+        "rol": "Ay1"
+      },
+      {
+        "nombre": "Ian Apter",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Jueves",
+      "Martes"
+    ],
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00"
+  },
+  {
+    "materia": "TALLER DE CÁLCULO AVANZADO",
+    "turno": "tarde",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Alejandro Petrovich",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Santiago Ramírez",
+        "rol": "JTP"
+      },
+      {
+        "nombre": "Joaquín Fernández",
+        "rol": "Ay2"
+      }
+    ],
+    "dias": [
+      "Jueves"
+    ],
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00"
+  },
+  {
+    "materia": "ÁLGEBRA CONMUTATIVA (LIC. MATEMÁTICA) - TÓPICOS DE ÁLGEBRA CONMUTATIVA (DOCTORADO)",
+    "turno": "mañana",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Federico Quallbrunn",
+        "rol": "Prof."
+      }
+    ],
+    "dias": [
+      "Lunes",
+      "Miércoles"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00"
+  },
+  {
+    "materia": "METODOS DE ELEMENTOS FINITOS Y APLICACIONES (LIC. MATEMÁTICA) - TÓPICOS DE MÉTODOS DE ELEMENTOS FINITOS Y APLICACIONES (DOCTORADO)",
+    "turno": "mañana",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Ignacio Ojea",
+        "rol": "Prof."
+      }
+    ],
+    "dias": [
+      "Jueves",
+      "Viernes"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "12:00"
+  },
+  {
+    "materia": "TOPOLOGÍA DIFERENCIAL (LIC. MATEMÁTICA) - TÓPICOS DE TOPOLOGÍA DIFERENCIAL (DOCTORADO)",
+    "turno": "tarde",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Gabriel Minian",
+        "rol": "Prof."
+      }
+    ],
+    "dias": [
+      "Martes",
+      "Viernes"
+    ],
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00"
+  },
+  {
+    "materia": "ALEATORIEDAD DE MÖBIUS - TEORÍA DE ALEATORIEDAD DE MÖBIUS",
+    "turno": "tarde",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Miguel Walsh",
+        "rol": "Prof."
+      }
+    ],
+    "dias": [
+      "Miércoles"
+    ],
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00"
+  },
+  {
+    "materia": "ANÁLISIS ESTADÍSTICO DE DATOS FUNCIONALES CON APLICACIONES EN R (LICENCIATURA)-ANÁLISIS DE DATOS FUNCIONALES (DOCTORADO)",
+    "turno": "tarde",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Graciela Boente Boente",
+        "rol": "Prof."
+      }
+    ],
+    "dias": [
+      "Martes",
+      "Jueves"
+    ],
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00"
+  },
+  {
+    "materia": "ANÁLISIS NO LINEAL: MÉTODOS TOPOLÓGICOS (LIC) - MÉTODOS TOPOLÓGICOS EN EL ANÁLISIS NO LINEAL (DOC)",
+    "turno": "tarde",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Pablo Gustavo Amster",
+        "rol": "Prof."
+      },
+      {
+        "nombre": "Pablo Gustavo Amster",
+        "rol": "Prof."
+      }
+    ],
+    "dias": [
+      "Jueves",
+      "Miércoles"
+    ],
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00"
+  },
+  {
+    "materia": "CÁLCULO ESTOCÁSTICO (LIC) - ECUACIONES DIFERENCIALES  ESTOCÁSTICAS (DOC)",
+    "turno": "tarde",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Pablo Groisman",
+        "rol": "Prof."
+      }
+    ],
+    "dias": [
+      "Lunes",
+      "Miércoles"
+    ],
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00"
+  },
+  {
+    "materia": "DATOS, ECUACIONES DIFERENCIALES E INTELIGENCIA ARTIFICIAL (L) - INTELIGENCIA ARTIFICIAL, DATOS Y ECUACIONES DIFERENCIALES (D)",
+    "turno": "tarde",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Facundo Fabián Sapienza",
+        "rol": "Prof."
+      }
+    ],
+    "dias": [
+      "Lunes",
+      "Miércoles"
+    ],
+    "hora_inicio": "12:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "ESTUDIO DE ECUACIONES DIOFANTICAS (L) - EL TEOREMA DE FERMAT (D)",
+    "turno": "tarde",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Ariel Pacetti",
+        "rol": "Prof."
+      }
+    ],
+    "dias": [
+      "Jueves",
+      "Viernes"
+    ],
+    "hora_inicio": "16:00",
+    "hora_fin": "19:00"
+  },
+  {
+    "materia": "INTRODUCCION A C*ALGEBRAS (LIC) - C*ALGEBRA, TEORIA Y EJEMPLOS (D)",
+    "turno": "mañana",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Esteban Andruchow",
+        "rol": ""
+      }
+    ],
+    "dias": [
+      "Martes"
+    ],
+    "hora_inicio": "10:00",
+    "hora_fin": "14:00"
+  },
+  {
+    "materia": "INTRODUCCIÓN AL DISEÑO DE MECANISMOS (LIC) -  FUNDAMENTOS DEL DISEÑO DE MECANISMOS (DOC)",
+    "turno": "mañana",
+    "tipo": "TP",
+    "profesores": [
+      {
+        "nombre": "Juan Pablo Pinasco",
+        "rol": "Prof."
+      }
+    ],
+    "dias": [
+      "Miércoles"
+    ],
+    "hora_inicio": "09:00",
+    "hora_fin": "13:00"
+  }
+]

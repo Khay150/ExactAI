@@ -1,0 +1,5402 @@
+[
+  {
+    "materia": "Química industrial",
+    "turno": null,
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:30",
+    "pabellon": "0",
+    "aula": "1102"
+  },
+  {
+    "materia": "IP/AEDI/Int.Comp.",
+    "turno": "TM",
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "10:30",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1104"
+  },
+  {
+    "materia": "IP/AEDI/Int.Comp.",
+    "turno": "TT",
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1104"
+  },
+  {
+    "materia": "IP/AEDI/Int.Comp.",
+    "turno": "TN",
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "19:00",
+    "hora_fin": "21:30",
+    "pabellon": "0",
+    "aula": "1104"
+  },
+  {
+    "materia": "IP/AEDI/Int.Comp.",
+    "turno": "TM",
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "10:30",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1105"
+  },
+  {
+    "materia": "IP/AEDI/Int.Comp.",
+    "turno": "TT",
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1105"
+  },
+  {
+    "materia": "IP/AEDI/Int.Comp.",
+    "turno": "TN",
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "19:00",
+    "hora_fin": "21:30",
+    "pabellon": "0",
+    "aula": "1105"
+  },
+  {
+    "materia": "IP/AEDI/Int.Comp.",
+    "turno": "TM",
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "10:30",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1106"
+  },
+  {
+    "materia": "IP/AEDI/Int.Comp.",
+    "turno": "TT",
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1106"
+  },
+  {
+    "materia": "AOC/Org.del Computador II",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1106"
+  },
+  {
+    "materia": "IP/AEDI/Int.Comp.",
+    "turno": "TM",
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "10:30",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1107"
+  },
+  {
+    "materia": "Proc. Imágenes I/Elem.Reconoc.Visual",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1107"
+  },
+  {
+    "materia": "AOC/Org.del Computador II",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1107"
+  },
+  {
+    "materia": "Matemática II",
+    "turno": "T1",
+    "tipo": "PC",
+    "dia": "Lunes",
+    "hora_inicio": "11:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1109"
+  },
+  {
+    "materia": "Estadística/Int.Estadística y C.de Datos",
+    "turno": "PC",
+    "tipo": "PC",
+    "dia": "Lunes",
+    "hora_inicio": "11:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1110"
+  },
+  {
+    "materia": "Sistemas de Información Geográfica",
+    "turno": "PC",
+    "tipo": "PC",
+    "dia": "Lunes",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1110"
+  },
+  {
+    "materia": "Cálculo Numérico/ECN",
+    "turno": null,
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "11:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1111"
+  },
+  {
+    "materia": "Informática Educativa (sigue julio hasta primer semana agosto)",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "16:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1111"
+  },
+  {
+    "materia": "Laboratorio de Datos",
+    "turno": "TN",
+    "tipo": "PC",
+    "dia": "Lunes",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1111"
+  },
+  {
+    "materia": "Matemática II",
+    "turno": "T2",
+    "tipo": "PC",
+    "dia": "Lunes",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1112"
+  },
+  {
+    "materia": "Int.Redes Complejas con Aplic.",
+    "turno": null,
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1113"
+  },
+  {
+    "materia": "Geometría",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1114"
+  },
+  {
+    "materia": "Fisiología del Sistema Nervioso",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "20:00",
+    "pabellon": "0",
+    "aula": "1114"
+  },
+  {
+    "materia": "Informática Educativa (sigue julio hasta primer semana agosto)",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "pabellon": "0",
+    "aula": "1115"
+  },
+  {
+    "materia": "Matemática II",
+    "turno": "T2",
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1115"
+  },
+  {
+    "materia": "Procesos Termodinámicos en la Atmósfera",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "8:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Química Analítica 1/Química Analítica",
+    "turno": "TT",
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "13:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Ingeniería de Software II",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Relatividad General",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1204"
+  },
+  {
+    "materia": "Análisis Real/Medida y Probabilidad",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1204"
+  },
+  {
+    "materia": "Matemática II",
+    "turno": "T1",
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "11:00",
+    "pabellon": "0",
+    "aula": "1205"
+  },
+  {
+    "materia": "Cálculo Estocástico",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1205"
+  },
+  {
+    "materia": "Análisis Complejo",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1205"
+  },
+  {
+    "materia": "Int.Fisiología Animal",
+    "turno": "T M",
+    "tipo": "S",
+    "dia": "Lunes",
+    "hora_inicio": "9:30",
+    "hora_fin": "13:30",
+    "pabellon": "0",
+    "aula": "1206"
+  },
+  {
+    "materia": "Métodos Estadísticos",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "pabellon": "0",
+    "aula": "1206"
+  },
+  {
+    "materia": "Química Física II",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1207"
+  },
+  {
+    "materia": "Química Orgánica 1",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "15:30",
+    "hora_fin": "17:30",
+    "pabellon": "0",
+    "aula": "1207"
+  },
+  {
+    "materia": "Análisis Matemático 1",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "17:30",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1207"
+  },
+  {
+    "materia": "Álgebra Conmutativa",
+    "turno": null,
+    "tipo": null,
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:00",
+    "pabellon": "0",
+    "aula": "1208"
+  },
+  {
+    "materia": "Genética Humana con Laboratorio",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "18:00",
+    "pabellon": "0",
+    "aula": "1208"
+  },
+  {
+    "materia": "Int.Fisiología Animal",
+    "turno": "T N",
+    "tipo": "S",
+    "dia": "Lunes",
+    "hora_inicio": "18:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1208"
+  },
+  {
+    "materia": "Endocrinología de Vertebrados",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "9:30",
+    "hora_fin": "12:00",
+    "pabellon": "0",
+    "aula": "1209"
+  },
+  {
+    "materia": "Sistemas Operativos",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1209"
+  },
+  {
+    "materia": "Estadística para el Sistema Climático 1",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "8:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1301"
+  },
+  {
+    "materia": "Ecología de Comunidades y Ecosistemas",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "pabellon": "0",
+    "aula": "1301"
+  },
+  {
+    "materia": "Química Física I",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1301"
+  },
+  {
+    "materia": " Química General e Inorgánica 1",
+    "turno": null,
+    "tipo": null,
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1302"
+  },
+  {
+    "materia": "Ecología Ambiental",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "14:30",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1302"
+  },
+  {
+    "materia": "Ecología Ambiental",
+    "turno": "TPS",
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "18:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1302"
+  },
+  {
+    "materia": "Inglés Universitario IIIA",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1303"
+  },
+  {
+    "materia": "Física 3",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1303"
+  },
+  {
+    "materia": "Inglés Universitario IV A",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1304"
+  },
+  {
+    "materia": "Fisiología del Comportamiento Animal",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "13:30",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1304"
+  },
+  {
+    "materia": "Fisiología del Comportamiento Animal",
+    "turno": null,
+    "tipo": "S",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "0",
+    "aula": "1304"
+  },
+  {
+    "materia": "Estructura de la Materia 3",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:00",
+    "pabellon": "0",
+    "aula": "1305"
+  },
+  {
+    "materia": "Talleres de Tecnicas de Estudio",
+    "turno": null,
+    "tipo": null,
+    "dia": "Lunes",
+    "hora_inicio": "14:30",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1305"
+  },
+  {
+    "materia": "Probabilidades y Estadística",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1305"
+  },
+  {
+    "materia": "Química Inorgánica 1",
+    "turno": "TP01",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "11:00",
+    "pabellon": "0",
+    "aula": "1306"
+  },
+  {
+    "materia": "Práctica Social Eductaiva (Robledo/Moreira)",
+    "turno": null,
+    "tipo": null,
+    "dia": "Lunes",
+    "hora_inicio": "13:00",
+    "hora_fin": "18:00",
+    "pabellon": "0",
+    "aula": "1306"
+  },
+  {
+    "materia": "Lógicas Modales",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "18:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1306"
+  },
+  {
+    "materia": "Temas de Física",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "15:00",
+    "hora_fin": "20:00",
+    "pabellon": "0",
+    "aula": "1307"
+  },
+  {
+    "materia": "Meteorología General",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "8:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1308"
+  },
+  {
+    "materia": "Astrofísica",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "15:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1308"
+  },
+  {
+    "materia": "AOC/Organización del Computador II",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1309"
+  },
+  {
+    "materia": "Introducción a la Botánica",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "13:30",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1403"
+  },
+  {
+    "materia": "Evolución/Evolución para Paleontólogos",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "20:00",
+    "pabellon": "0",
+    "aula": "1403"
+  },
+  {
+    "materia": "Estadística/Int.Estadística y C.de Datos",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "11:00",
+    "pabellon": "1",
+    "aula": "2"
+  },
+  {
+    "materia": "Física Teórica 3",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "2"
+  },
+  {
+    "materia": "Análisis I/Matemática 1",
+    "turno": "TP3",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "3"
+  },
+  {
+    "materia": "Introducción al Modelado Continuo",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "pabellon": "1",
+    "aula": "3"
+  },
+  {
+    "materia": "Análisis II/Matemática 3",
+    "turno": "TP4",
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "3"
+  },
+  {
+    "materia": "Física 3",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "4"
+  },
+  {
+    "materia": "Análisis I/Matemática 1",
+    "turno": "TP4",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "1",
+    "aula": "4"
+  },
+  {
+    "materia": "Matemática I",
+    "turno": "TP 1",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "5"
+  },
+  {
+    "materia": "Análisis II/Matemática 3",
+    "turno": "TP3",
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "1",
+    "aula": "5"
+  },
+  {
+    "materia": "Cálculo Numérico/ECN",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "6"
+  },
+  {
+    "materia": "AOC/Organización del Computador II",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "6"
+  },
+  {
+    "materia": "Física Teórica 1",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "7"
+  },
+  {
+    "materia": "Matemática I",
+    "turno": "T2",
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "1",
+    "aula": "7"
+  },
+  {
+    "materia": "Matemática I",
+    "turno": "T2",
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "19:00",
+    "pabellon": "1",
+    "aula": "7"
+  },
+  {
+    "materia": "Matemática I",
+    "turno": "T3",
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "7"
+  },
+  {
+    "materia": "Geometría Diferencial",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "E24"
+  },
+  {
+    "materia": "Procesos Termodinámicos en la Atmósfera\t",
+    "turno": null,
+    "tipo": null,
+    "dia": "Lunes",
+    "hora_inicio": "8:00",
+    "hora_fin": "13:00",
+    "pabellon": "1",
+    "aula": "Labo 1"
+  },
+  {
+    "materia": "Métodos Estadísticos",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "1",
+    "aula": "Labo 2"
+  },
+  {
+    "materia": "Int.Redes Complejas con Aplic.",
+    "turno": null,
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "Labo 2"
+  },
+  {
+    "materia": "AEDIII/Técn.Diseño de Algoritmos",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "1",
+    "aula": "Magna"
+  },
+  {
+    "materia": "AEDIII/Técn.Diseño de Algoritmos",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "1",
+    "aula": "Magna"
+  },
+  {
+    "materia": "Análisis I/Matemática 1",
+    "turno": "TP1",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "5"
+  },
+  {
+    "materia": "Química Orgánica",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "15:00",
+    "hora_fin": "17:00",
+    "pabellon": "2",
+    "aula": "5"
+  },
+  {
+    "materia": "Análisis I/Matemática 1",
+    "turno": "TP5",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "2",
+    "aula": "5"
+  },
+  {
+    "materia": "Análisis II/Matemática 3",
+    "turno": "TP1",
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "6"
+  },
+  {
+    "materia": "Int.Fisiología Animal",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "14:30",
+    "hora_fin": "17:30",
+    "pabellon": "2",
+    "aula": "6"
+  },
+  {
+    "materia": "Química Biológica",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "18:00",
+    "hora_fin": "20:30",
+    "pabellon": "2",
+    "aula": "6"
+  },
+  {
+    "materia": "Análisis I/Matemática 1",
+    "turno": "TP2",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "12"
+  },
+  {
+    "materia": "Mecánica Clásica",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "2",
+    "aula": "12"
+  },
+  {
+    "materia": "Psicología y Aprendizaje",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "pabellon": "2",
+    "aula": "15"
+  },
+  {
+    "materia": "Química Tecnológica",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "18:00",
+    "pabellon": "2",
+    "aula": "15"
+  },
+  {
+    "materia": "Didáctica Esp.y Práctica de la Ens. II",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "18:00",
+    "hora_fin": "22:00",
+    "pabellon": "2",
+    "aula": "15"
+  },
+  {
+    "materia": "Invertebrados I",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "13:30",
+    "hora_fin": "16:00",
+    "pabellon": "2",
+    "aula": "111"
+  },
+  {
+    "materia": "Química Analítica 1/Química Analítica",
+    "turno": "TN",
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "18:00",
+    "hora_fin": "21:00",
+    "pabellon": "2",
+    "aula": "111"
+  },
+  {
+    "materia": "Física Contemporanea",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "2",
+    "aula": "112"
+  },
+  {
+    "materia": "Química Analítica 1/Química Analítica",
+    "turno": "TN",
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "18:00",
+    "hora_fin": "21:00",
+    "pabellon": "2",
+    "aula": "112"
+  },
+  {
+    "materia": "Genómica Evolutiva y Poblacional",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "pabellon": "2",
+    "aula": "113"
+  },
+  {
+    "materia": "Mecánica de los Fluidos",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "2",
+    "aula": "114"
+  },
+  {
+    "materia": "Química Inorgánica 1",
+    "turno": "TP02",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "18:00",
+    "hora_fin": "20:00",
+    "pabellon": "2",
+    "aula": "114"
+  },
+  {
+    "materia": "Construcción Comunitaria de Mapas",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "2",
+    "aula": "115"
+  },
+  {
+    "materia": "Funciones y Álgebra en la Escuela Media",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "10:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "116"
+  },
+  {
+    "materia": "Biología del Desarrollo Veg.de Plantas",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "16:30",
+    "hora_fin": "19:00",
+    "pabellon": "2",
+    "aula": "116"
+  },
+  {
+    "materia": "Didáctica Esp.y Práctica de la Ens. I",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "18:00",
+    "hora_fin": "21:00",
+    "pabellon": "2",
+    "aula": "117"
+  },
+  {
+    "materia": "Análisis II/Matemática 3",
+    "turno": "TP2",
+    "tipo": "P",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "207"
+  },
+  {
+    "materia": "Astrofísica",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "15:00",
+    "hora_fin": "19:00",
+    "pabellon": "2",
+    "aula": "207"
+  },
+  {
+    "materia": "Biotecnología Microbiana Ambiental",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Lunes",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "2",
+    "aula": "QB"
+  },
+  {
+    "materia": "Paleontología Cuantitativa",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "11:00",
+    "pabellon": "2",
+    "aula": "Sala A"
+  },
+  {
+    "materia": "Paleontología Cuantitativa",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Lunes",
+    "hora_inicio": "11:00",
+    "hora_fin": "13:00",
+    "pabellon": "2",
+    "aula": "Sala A"
+  },
+  {
+    "materia": "Paleontología Cuantitativa",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Lunes",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "pabellon": "2",
+    "aula": "Sala A"
+  },
+  {
+    "materia": "Paleontología Cuantitativa",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Lunes",
+    "hora_inicio": "16:00",
+    "hora_fin": "18:00",
+    "pabellon": "2",
+    "aula": "Sala A"
+  },
+  {
+    "materia": "Química Física II",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Lunes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "Sala B"
+  },
+  {
+    "materia": "Mecánica y Termodinámica",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1101"
+  },
+  {
+    "materia": "Biometría",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1101"
+  },
+  {
+    "materia": "Aprendizaje Automático I",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "0",
+    "aula": "1101"
+  },
+  {
+    "materia": "Int.Biología Molecular y Celular",
+    "turno": "T1",
+    "tipo": "S",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1102"
+  },
+  {
+    "materia": "Int.Biología Molecular y Celular",
+    "turno": "T2",
+    "tipo": "S",
+    "dia": "Martes",
+    "hora_inicio": "13:30",
+    "hora_fin": "17:30",
+    "pabellon": "0",
+    "aula": "1102"
+  },
+  {
+    "materia": "Complementos de Química Inorgánica",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "18:00",
+    "hora_fin": "21:00",
+    "pabellon": "0",
+    "aula": "1102"
+  },
+  {
+    "materia": "ALC/MN",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "11:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1104"
+  },
+  {
+    "materia": "RCCD/Teoría de las Comunicaciones",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1104"
+  },
+  {
+    "materia": "ALC/MN",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1104"
+  },
+  {
+    "materia": "ALC/MN",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "11:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1105"
+  },
+  {
+    "materia": "ALC/MN",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1105"
+  },
+  {
+    "materia": "ALC/MN",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "11:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1106"
+  },
+  {
+    "materia": "IS/Ing.Software I",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1106"
+  },
+  {
+    "materia": "Sem.Algoritmos Análsis de Secuencias Biol.",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1107"
+  },
+  {
+    "materia": "IS/Ing.Software I",
+    "turno": null,
+    "tipo": null,
+    "dia": "Martes",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1107"
+  },
+  {
+    "materia": "Biometría",
+    "turno": "T1",
+    "tipo": "PC",
+    "dia": "Martes",
+    "hora_inicio": "9:30",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1108"
+  },
+  {
+    "materia": "Biometría",
+    "turno": "T3",
+    "tipo": "PC",
+    "dia": "Martes",
+    "hora_inicio": "17:30",
+    "hora_fin": "21:00",
+    "pabellon": "0",
+    "aula": "1108"
+  },
+  {
+    "materia": "Biometría",
+    "turno": "T2",
+    "tipo": "PC",
+    "dia": "Martes",
+    "hora_inicio": "9:30",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1109"
+  },
+  {
+    "materia": "Biometría",
+    "turno": "T4",
+    "tipo": "PC",
+    "dia": "Martes",
+    "hora_inicio": "17:30",
+    "hora_fin": "21:00",
+    "pabellon": "0",
+    "aula": "1109"
+  },
+  {
+    "materia": "Investigación Operativa",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1110"
+  },
+  {
+    "materia": "Ingeniería de Software",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Martes",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1110"
+  },
+  {
+    "materia": "Optimización/Tópicos de Optimización",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "16:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1111"
+  },
+  {
+    "materia": "Estadística 1/Estadística 2",
+    "turno": null,
+    "tipo": null,
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "11:00",
+    "pabellon": "0",
+    "aula": "1112"
+  },
+  {
+    "materia": "Organización y Función Celular",
+    "turno": "TP T",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1113"
+  },
+  {
+    "materia": "Biotecnología",
+    "turno": null,
+    "tipo": null,
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:30",
+    "pabellon": "0",
+    "aula": "1113"
+  },
+  {
+    "materia": "Tópicos de Biofísica Molecular",
+    "turno": null,
+    "tipo": null,
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1114"
+  },
+  {
+    "materia": "Seminario sobre Tecnología y Sociedad",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "20:00",
+    "pabellon": "0",
+    "aula": "1114"
+  },
+  {
+    "materia": "Álgebra I",
+    "turno": "TP3",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1115"
+  },
+  {
+    "materia": "Física 2",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1115"
+  },
+  {
+    "materia": "Estadística 1/Estadística 2",
+    "turno": null,
+    "tipo": null,
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "11:00",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Verificación Formal en Sistemas",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "11:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Biología de la Reproducción",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "13:30",
+    "hora_fin": "16:00",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Microbiología General e Industrial",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "16:00",
+    "hora_fin": "17:30",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Bromatología",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "17:30",
+    "hora_fin": "21:30",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Portugués",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1204"
+  },
+  {
+    "materia": "Álgebra II",
+    "turno": null,
+    "tipo": "P",
+    "dia": "Martes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1204"
+  },
+  {
+    "materia": "Ecología General",
+    "turno": "TP 1 M",
+    "tipo": "P",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1205"
+  },
+  {
+    "materia": "Biología de Peces",
+    "turno": "LOGI 23/6",
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "14:30",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1205"
+  },
+  {
+    "materia": "Ecología del Comportamiento",
+    "turno": "CARRO",
+    "tipo": "S",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1206"
+  },
+  {
+    "materia": "Ecología del Comportamiento",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "13:00",
+    "hora_fin": "15:00",
+    "pabellon": "0",
+    "aula": "1206"
+  },
+  {
+    "materia": "Fisiología Vegetal",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "15:00",
+    "hora_fin": "18:00",
+    "pabellon": "0",
+    "aula": "1206"
+  },
+  {
+    "materia": "Introducción a las Bases de Datos 2025",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "18:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1206"
+  },
+  {
+    "materia": "Análisis Matemático III/Matemática 4",
+    "turno": "T1",
+    "tipo": "P",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1207"
+  },
+  {
+    "materia": "Topología Diferencial",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1207"
+  },
+  {
+    "materia": "Estructura de la Materia 4",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "20:00",
+    "pabellon": "0",
+    "aula": "1207"
+  },
+  {
+    "materia": "Métodos Estad.en Física Experimental",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1208"
+  },
+  {
+    "materia": "Procesamiento Avanzado de Señales",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "0",
+    "aula": "1208"
+  },
+  {
+    "materia": "Data Mining en Ciencias y Tecnología",
+    "turno": null,
+    "tipo": null,
+    "dia": "Martes",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1209"
+  },
+  {
+    "materia": "Evolución/Evolución para Paleontólogos",
+    "turno": "TP 1 M",
+    "tipo": "P",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1302"
+  },
+  {
+    "materia": "Evolución/Evolución para Paleontólogos",
+    "turno": "TP 4 T",
+    "tipo": "P",
+    "dia": "Martes",
+    "hora_inicio": "13:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1302"
+  },
+  {
+    "materia": "Evolución/Evolución para Paleontólogos",
+    "turno": "TP 3 N",
+    "tipo": "P",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "0",
+    "aula": "1302"
+  },
+  {
+    "materia": "Evolución/Evolución para Paleontólogos",
+    "turno": "TP 2 M",
+    "tipo": "P",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1303"
+  },
+  {
+    "materia": "Oceanografía General/Oceanografía Física",
+    "turno": "T",
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "14:00",
+    "hora_fin": "18:00",
+    "pabellon": "0",
+    "aula": "1303"
+  },
+  {
+    "materia": "Estructura de la Materia 2",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:00",
+    "pabellon": "0",
+    "aula": "1304"
+  },
+  {
+    "materia": "Métodos Cromatográficos CG HPLC",
+    "turno": null,
+    "tipo": null,
+    "dia": "Martes",
+    "hora_inicio": "14:00",
+    "hora_fin": "18:00",
+    "pabellon": "0",
+    "aula": "1304"
+  },
+  {
+    "materia": "Fisiología del Sistema Nervioso",
+    "turno": null,
+    "tipo": "S",
+    "dia": "Martes",
+    "hora_inicio": "18:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1304"
+  },
+  {
+    "materia": "Ecuaciones Diferenciales Ordinarias",
+    "turno": null,
+    "tipo": null,
+    "dia": "Martes",
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1305"
+  },
+  {
+    "materia": "Análisis Funcional",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1305"
+  },
+  {
+    "materia": "Análisis Estadístico de Datos Func,",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1306"
+  },
+  {
+    "materia": "Organización y Función Celular",
+    "turno": "TP N",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "18:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1306"
+  },
+  {
+    "materia": "Inglés Elemental A",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1307"
+  },
+  {
+    "materia": "Didáctica Esp.y Práctica de la Ens. I",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "16:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1307"
+  },
+  {
+    "materia": "Fundamentos de Láseres",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1308"
+  },
+  {
+    "materia": "Temas de Materia Cond.: Superc.",
+    "turno": null,
+    "tipo": "P",
+    "dia": "Martes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1308"
+  },
+  {
+    "materia": "Diseño de Dataproducts & Tópicos",
+    "turno": null,
+    "tipo": null,
+    "dia": "Martes",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1308"
+  },
+  {
+    "materia": "Química General e Inorgánica I",
+    "turno": "TP01",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:30",
+    "pabellon": "0",
+    "aula": "1309"
+  },
+  {
+    "materia": "Química General e Inorgánica I",
+    "turno": "TP03",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "13:00",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1309"
+  },
+  {
+    "materia": "Química General e Inorgánica I",
+    "turno": "TP05",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "17:30",
+    "hora_fin": "21:00",
+    "pabellon": "0",
+    "aula": "1309"
+  },
+  {
+    "materia": "Introducción a la Zoología",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:00",
+    "pabellon": "0",
+    "aula": "1403"
+  },
+  {
+    "materia": "Ecología General",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "15:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1403"
+  },
+  {
+    "materia": "Física 2",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "2"
+  },
+  {
+    "materia": "Análisis Matemático III/Matemática 4",
+    "turno": "T2",
+    "tipo": "P",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "2"
+  },
+  {
+    "materia": "Cálculo Avanzado",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "3"
+  },
+  {
+    "materia": "Análisis Avanzado",
+    "turno": "TP3",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "3"
+  },
+  {
+    "materia": "Álgebra I",
+    "turno": "TP2",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "4"
+  },
+  {
+    "materia": "Álgebra I",
+    "turno": "TP4",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "1",
+    "aula": "4"
+  },
+  {
+    "materia": "Análisis Avanzado",
+    "turno": "TP1",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "5"
+  },
+  {
+    "materia": "Probabilidad",
+    "turno": "TP2",
+    "tipo": "P",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "5"
+  },
+  {
+    "materia": "Física Teórica 2",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "6"
+  },
+  {
+    "materia": "Ingeniería de Software",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "19:00",
+    "pabellon": "1",
+    "aula": "6"
+  },
+  {
+    "materia": "Redes de Comunicaciones/Teoría",
+    "turno": null,
+    "tipo": "P",
+    "dia": "Martes",
+    "hora_inicio": "19:30",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "6"
+  },
+  {
+    "materia": "Álgebra Lineal Computacional/MN",
+    "turno": "TM",
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "11:00",
+    "pabellon": "1",
+    "aula": "7"
+  },
+  {
+    "materia": "AEDII/Algoritmos y Estructuras de Datos",
+    "turno": null,
+    "tipo": null,
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "7"
+  },
+  {
+    "materia": "C*Álgebras/Álgebras C*:Teoría y Ejemplos",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "10:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "E24"
+  },
+  {
+    "materia": "Optimización/Tópicos de Optimización",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "16:00",
+    "hora_fin": "21:00",
+    "pabellon": "1",
+    "aula": "E24"
+  },
+  {
+    "materia": "Meteorología Sinóptica",
+    "turno": "PC",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "8:00",
+    "hora_fin": "13:00",
+    "pabellon": "1",
+    "aula": "Labo 1"
+  },
+  {
+    "materia": "Modelos Estadísticos Interpretables",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:30",
+    "pabellon": "1",
+    "aula": "Labo 1"
+  },
+  {
+    "materia": "Química Física I",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "Labo 2"
+  },
+  {
+    "materia": "Álgebra I",
+    "turno": "TP1",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "5"
+  },
+  {
+    "materia": "Física 1",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "2",
+    "aula": "5"
+  },
+  {
+    "materia": "Física 1",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "6"
+  },
+  {
+    "materia": "Álgebra Lineal Computacional/MN",
+    "turno": "TT",
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "19:00",
+    "pabellon": "2",
+    "aula": "6"
+  },
+  {
+    "materia": "Paradigmas de Programación",
+    "turno": null,
+    "tipo": "P",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "12"
+  },
+  {
+    "materia": "Álgebra I",
+    "turno": "TP5",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "2",
+    "aula": "12"
+  },
+  {
+    "materia": "Didáctica Esp.y Práctica de la Ens. I",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "14:00",
+    "hora_fin": "20:00",
+    "pabellon": "2",
+    "aula": "15"
+  },
+  {
+    "materia": "Int.Fisiología Animal",
+    "turno": null,
+    "tipo": null,
+    "dia": "Martes",
+    "hora_inicio": "14:00",
+    "hora_fin": "18:00",
+    "pabellon": "2",
+    "aula": "111"
+  },
+  {
+    "materia": "Biología Comparada de Protistas",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "18:30",
+    "hora_fin": "20:30",
+    "pabellon": "2",
+    "aula": "111"
+  },
+  {
+    "materia": "Ecología y Epid.de Infec.Parasitarias",
+    "turno": "TPS",
+    "tipo": "P",
+    "dia": "Martes",
+    "hora_inicio": "8:30",
+    "hora_fin": "11:30",
+    "pabellon": "2",
+    "aula": "112"
+  },
+  {
+    "materia": "Ecología y Epid.de Infec.Parasitarias",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "12:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "112"
+  },
+  {
+    "materia": "Dinámica del Océano",
+    "turno": "T/P",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "2",
+    "aula": "112"
+  },
+  {
+    "materia": "Oceanografía Aplicada",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "8:00",
+    "hora_fin": "13:00",
+    "pabellon": "2",
+    "aula": "114"
+  },
+  {
+    "materia": "Identificación y Producción de Hongos",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "13:00",
+    "hora_fin": "15:00",
+    "pabellon": "2",
+    "aula": "114"
+  },
+  {
+    "materia": "Estudio de Ecuaciones Diofanticas",
+    "turno": null,
+    "tipo": null,
+    "dia": "Martes",
+    "hora_inicio": "16:00",
+    "hora_fin": "19:00",
+    "pabellon": "2",
+    "aula": "114"
+  },
+  {
+    "materia": "Botánica Económica",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "17:30",
+    "hora_fin": "21:30",
+    "pabellon": "2",
+    "aula": "115"
+  },
+  {
+    "materia": "Genética de Poblaciones",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:30",
+    "pabellon": "2",
+    "aula": "116"
+  },
+  {
+    "materia": "Genética de Poblaciones",
+    "turno": "TPS",
+    "tipo": "P",
+    "dia": "Martes",
+    "hora_inicio": "13:00",
+    "hora_fin": "17:00",
+    "pabellon": "2",
+    "aula": "116"
+  },
+  {
+    "materia": "Biología Molecular de Mic.Eucariotas",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "2",
+    "aula": "116"
+  },
+  {
+    "materia": "Química del Agua de Mar",
+    "turno": "T-P",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "2",
+    "aula": "117"
+  },
+  {
+    "materia": "Análisis Avanzado",
+    "turno": "TP2",
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "2",
+    "aula": "203"
+  },
+  {
+    "materia": "Probabilidad",
+    "turno": "TP1",
+    "tipo": "P",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "207"
+  },
+  {
+    "materia": "Álgebra Lineal",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Martes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "2",
+    "aula": "207"
+  },
+  {
+    "materia": "Int.Biología Molecular y Celular",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Martes",
+    "hora_inicio": "18:00",
+    "hora_fin": "21:00",
+    "pabellon": "2",
+    "aula": "Magna"
+  },
+  {
+    "materia": "Estadística Computacional",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "SALA A"
+  },
+  {
+    "materia": "Química Física I",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Martes",
+    "hora_inicio": "11:00",
+    "hora_fin": "16:00",
+    "pabellon": "2",
+    "aula": "SALA B"
+  },
+  {
+    "materia": "Int.a la Bioinformática Molecular",
+    "turno": "T2",
+    "tipo": "P",
+    "dia": "Martes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "Ind",
+    "aula": "Magna"
+  },
+  {
+    "materia": "ARI/Base de Datos",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1101"
+  },
+  {
+    "materia": "Int.Biología Molecular y Celular",
+    "turno": "T3",
+    "tipo": "S",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1102"
+  },
+  {
+    "materia": "Teoría de Juegos (DC) 2024",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "13:00",
+    "hora_fin": "18:00",
+    "pabellon": "0",
+    "aula": "1102"
+  },
+  {
+    "materia": "Ecología Ambiental",
+    "turno": "TPS",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "18:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1102"
+  },
+  {
+    "materia": "IP/AEDI/Int.Comp.",
+    "turno": "TM",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "10:30",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1104"
+  },
+  {
+    "materia": "IP/AEDI/Int.Comp.",
+    "turno": "TT",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1104"
+  },
+  {
+    "materia": "ARI/Base de Datos",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1104"
+  },
+  {
+    "materia": "IP/AEDI/Int.Comp.",
+    "turno": "TN",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "19:00",
+    "hora_fin": "21:30",
+    "pabellon": "0",
+    "aula": "1104"
+  },
+  {
+    "materia": "IP/AEDI/Int.Comp.",
+    "turno": "TM",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "10:30",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1105"
+  },
+  {
+    "materia": "IP/AEDI/Int.Comp.",
+    "turno": "TT",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1105"
+  },
+  {
+    "materia": "IP/AEDI/Int.Comp.",
+    "turno": "TN",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "19:00",
+    "hora_fin": "21:30",
+    "pabellon": "0",
+    "aula": "1105"
+  },
+  {
+    "materia": "IP/AEDI/Int.Comp.",
+    "turno": "TM",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "10:30",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1106"
+  },
+  {
+    "materia": "IP/AEDI/Int.Comp.",
+    "turno": "TM",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "10:30",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1107"
+  },
+  {
+    "materia": "Proc.Imágenes I/Infraestructura Tecn.",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "13:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1107"
+  },
+  {
+    "materia": "Ing.Software II",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1107"
+  },
+  {
+    "materia": "Matemática II",
+    "turno": "T1",
+    "tipo": "PC",
+    "dia": "Miércoles",
+    "hora_inicio": "11:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1109"
+  },
+  {
+    "materia": "Laboratorio de Datos",
+    "turno": "TM",
+    "tipo": "PC",
+    "dia": "Miércoles",
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1110"
+  },
+  {
+    "materia": "Data Mining",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Miércoles",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1110"
+  },
+  {
+    "materia": "Introducción al Modelado Continuo",
+    "turno": "PC",
+    "tipo": "PC",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "18:00",
+    "pabellon": "0",
+    "aula": "1111"
+  },
+  {
+    "materia": "Laboratorio de Datos",
+    "turno": "TN",
+    "tipo": "PC",
+    "dia": "Miércoles",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1111"
+  },
+  {
+    "materia": "Introducción al Modelado Continuo",
+    "turno": "PC",
+    "tipo": "PC",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "18:00",
+    "pabellon": "0",
+    "aula": "1112"
+  },
+  {
+    "materia": "Matemática II",
+    "turno": "T2",
+    "tipo": "PC",
+    "dia": "Miércoles",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1112"
+  },
+  {
+    "materia": "AEDIII/Técn.Diseño de Algoritmos",
+    "turno": null,
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1113"
+  },
+  {
+    "materia": "Química Orgánica 1",
+    "turno": "TM",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "13:00",
+    "hora_fin": "15:00",
+    "pabellon": "0",
+    "aula": "1113"
+  },
+  {
+    "materia": "Química Orgánica 1",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "15:30",
+    "hora_fin": "17:30",
+    "pabellon": "0",
+    "aula": "1113"
+  },
+  {
+    "materia": "Química Orgánica 1",
+    "turno": "TN",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "18:00",
+    "hora_fin": "20:00",
+    "pabellon": "0",
+    "aula": "1113"
+  },
+  {
+    "materia": "Álgebra Conmutativa",
+    "turno": null,
+    "tipo": null,
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:00",
+    "pabellon": "0",
+    "aula": "1114"
+  },
+  {
+    "materia": "Fisiología del Sistema Nervioso",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "20:00",
+    "pabellon": "0",
+    "aula": "1114"
+  },
+  {
+    "materia": "Matemática II",
+    "turno": "T2",
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1115"
+  },
+  {
+    "materia": "Física II",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Métodos Estadísticos",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Electromagnetismo y Òptica",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Relatividad General",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1204"
+  },
+  {
+    "materia": "Int.Cs.de la Atmósfera y los Oc.",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "18:00",
+    "pabellon": "0",
+    "aula": "1204"
+  },
+  {
+    "materia": "Biología Sensorial Animal",
+    "turno": null,
+    "tipo": "S",
+    "dia": "Miércoles",
+    "hora_inicio": "18:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1204"
+  },
+  {
+    "materia": "Matemática II",
+    "turno": "T1",
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "11:00",
+    "pabellon": "0",
+    "aula": "1205"
+  },
+  {
+    "materia": "Datos, Ecuaciones Diferenciales",
+    "turno": "logi",
+    "tipo": null,
+    "dia": "Miércoles",
+    "hora_inicio": "11:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1205"
+  },
+  {
+    "materia": "Cálculo Estocástico",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1205"
+  },
+  {
+    "materia": "Análisis Complejo",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1205"
+  },
+  {
+    "materia": "Int.Fisiología Animal",
+    "turno": "T M",
+    "tipo": "S",
+    "dia": "Miércoles",
+    "hora_inicio": "9:30",
+    "hora_fin": "13:30",
+    "pabellon": "0",
+    "aula": "1206"
+  },
+  {
+    "materia": "Astrofísica",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "15:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1206"
+  },
+  {
+    "materia": "Química Física II",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1207"
+  },
+  {
+    "materia": "Organización y Función Celular",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "14:30",
+    "hora_fin": "17:30",
+    "pabellon": "0",
+    "aula": "1207"
+  },
+  {
+    "materia": "Análisis Matemático 1",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "17:30",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1207"
+  },
+  {
+    "materia": "Procesamiento de Lenguaje Natural",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "9:30",
+    "hora_fin": "13:30",
+    "pabellon": "0",
+    "aula": "1208"
+  },
+  {
+    "materia": "Int.Fisiología Animal",
+    "turno": "T N",
+    "tipo": "S",
+    "dia": "Miércoles",
+    "hora_inicio": "18:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1208"
+  },
+  {
+    "materia": "Endocrinología de Vertebrados",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "9:30",
+    "hora_fin": "12:00",
+    "pabellon": "0",
+    "aula": "1209"
+  },
+  {
+    "materia": "Programación Concurrente y Paralela",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1209"
+  },
+  {
+    "materia": "Estadística para el Sistema Climático 1",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "8:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1301"
+  },
+  {
+    "materia": "Ecología de Comunidades y Ecosistemas",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "pabellon": "0",
+    "aula": "1301"
+  },
+  {
+    "materia": "Química Física I",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1301"
+  },
+  {
+    "materia": "Ecología Ambiental",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "14:30",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1302"
+  },
+  {
+    "materia": "Química industrial",
+    "turno": null,
+    "tipo": null,
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:30",
+    "pabellon": "0",
+    "aula": "1302"
+  },
+  {
+    "materia": "Int.Dinámica de la Atmósfera/Radiación",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "8:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1303"
+  },
+  {
+    "materia": "Biología Sensorial Animal",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1303"
+  },
+  {
+    "materia": "Introducción al Diseño de Mecanismos",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1304"
+  },
+  {
+    "materia": "Modelos Relacionales",
+    "turno": null,
+    "tipo": null,
+    "dia": "Miércoles",
+    "hora_inicio": "18:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1304"
+  },
+  {
+    "materia": "Estructura de la Materia 3",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:00",
+    "pabellon": "0",
+    "aula": "1305"
+  },
+  {
+    "materia": "Física 4",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1305"
+  },
+  {
+    "materia": "Fisiología del Comportamiento Animal",
+    "turno": "TPs",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "18:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1307"
+  },
+  {
+    "materia": "Meteorología General",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "8:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1308"
+  },
+  {
+    "materia": "Oceanografía General/Oceanografía Física",
+    "turno": "P",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1308"
+  },
+  {
+    "materia": "Química General e Inorgánica I",
+    "turno": "TP02",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:30",
+    "pabellon": "0",
+    "aula": "1309"
+  },
+  {
+    "materia": "Química General e Inorgánica I",
+    "turno": "TP04",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "13:00",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1309"
+  },
+  {
+    "materia": "Estructura de la Materia 1",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "20:00",
+    "pabellon": "0",
+    "aula": "1309"
+  },
+  {
+    "materia": "Genética I/Genética General",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1403"
+  },
+  {
+    "materia": "Introducción a la Botánica",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "13:30",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1403"
+  },
+  {
+    "materia": "Evolución/Evolución para Paleontólogos",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "20:00",
+    "pabellon": "0",
+    "aula": "1403"
+  },
+  {
+    "materia": "Física 4",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "2"
+  },
+  {
+    "materia": "Física Teórica 3",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "2"
+  },
+  {
+    "materia": "Electromagnetismo y Òptica",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "1",
+    "aula": "4"
+  },
+  {
+    "materia": "Matemática I",
+    "turno": "T2",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "1",
+    "aula": "4"
+  },
+  {
+    "materia": "Matemática I",
+    "turno": "T2",
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "19:00",
+    "pabellon": "1",
+    "aula": "4"
+  },
+  {
+    "materia": "Matemática I",
+    "turno": "T3",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "4"
+  },
+  {
+    "materia": "Matemática I",
+    "turno": "TP 1",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "5"
+  },
+  {
+    "materia": "Análisis II/Matemática 3",
+    "turno": "TP3",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "1",
+    "aula": "5"
+  },
+  {
+    "materia": "Cálculo Numérico/ECN",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "6"
+  },
+  {
+    "materia": "Bases de Programación/Taller de Inf,/PC",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "pabellon": "1",
+    "aula": "6"
+  },
+  {
+    "materia": "Física Teórica 1",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "7"
+  },
+  {
+    "materia": "AEDII/Algoritmos y Estructuras de Datos",
+    "turno": null,
+    "tipo": null,
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "7"
+  },
+  {
+    "materia": "Geometría",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "11:00",
+    "pabellon": "1",
+    "aula": "E24"
+  },
+  {
+    "materia": "Análisis No Lineal. Métodos Topológicos",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "1",
+    "aula": "E24"
+  },
+  {
+    "materia": "Pronóstico Climático",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "8:00",
+    "hora_fin": "13:00",
+    "pabellon": "1",
+    "aula": "Labo 1"
+  },
+  {
+    "materia": "Modelado Numérico de la Atmósfera (TRANISTORIO)",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "1",
+    "aula": "Labo 1"
+  },
+  {
+    "materia": "Ecología de Comunidades y Ecosistemas",
+    "turno": "TPS",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "pabellon": "1",
+    "aula": "Labo 2"
+  },
+  {
+    "materia": "Métodos Estadísticos",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "16:00",
+    "hora_fin": "19:00",
+    "pabellon": "1",
+    "aula": "Labo 2"
+  },
+  {
+    "materia": "AEDIII/Técn.Diseño de Algoritmos",
+    "turno": null,
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "1",
+    "aula": "Magna"
+  },
+  {
+    "materia": "Aleatoriedad de Möbius",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "2",
+    "aula": "2"
+  },
+  {
+    "materia": "AEDII/Algoritmos y Estructuras de Datos",
+    "turno": null,
+    "tipo": null,
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "5"
+  },
+  {
+    "materia": "Química Orgánica",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "15:00",
+    "hora_fin": "17:00",
+    "pabellon": "2",
+    "aula": "5"
+  },
+  {
+    "materia": "LFAC/Teoría de Lenguajes",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "2",
+    "aula": "5"
+  },
+  {
+    "materia": "Análisis II/Matemática 3",
+    "turno": "TP1",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "6"
+  },
+  {
+    "materia": "Int.Fisiología Animal",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "14:30",
+    "hora_fin": "17:30",
+    "pabellon": "2",
+    "aula": "6"
+  },
+  {
+    "materia": "Química Biológica",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "18:30",
+    "hora_fin": "21:00",
+    "pabellon": "2",
+    "aula": "6"
+  },
+  {
+    "materia": "Bases de Programación/Taller de Inf,/PC",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "11:00",
+    "hora_fin": "13:00",
+    "pabellon": "2",
+    "aula": "12"
+  },
+  {
+    "materia": "Psicología y Aprendizaje",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "pabellon": "2",
+    "aula": "15"
+  },
+  {
+    "materia": "Epistemología de la Física",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "2",
+    "aula": "15"
+  },
+  {
+    "materia": "Invertebrados I",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "13:30",
+    "hora_fin": "16:00",
+    "pabellon": "2",
+    "aula": "111"
+  },
+  {
+    "materia": "Seminario de Oceanografía",
+    "turno": "p",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "8:00",
+    "hora_fin": "13:00",
+    "pabellon": "2",
+    "aula": "112"
+  },
+  {
+    "materia": "Meteorología Agrícola 1",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "2",
+    "aula": "112"
+  },
+  {
+    "materia": "Genómica Evolutiva y Poblacional",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "10:00",
+    "hora_fin": "12:00",
+    "pabellon": "2",
+    "aula": "113"
+  },
+  {
+    "materia": "Mecánica de los Fluidos",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "2",
+    "aula": "114"
+  },
+  {
+    "materia": "Diversidad Fúngica",
+    "turno": null,
+    "tipo": null,
+    "dia": "Miércoles",
+    "hora_inicio": "11:00",
+    "hora_fin": "13:00",
+    "pabellon": "2",
+    "aula": "115"
+  },
+  {
+    "materia": "Biología del Desarrollo Veg.de Plantas",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "16:30",
+    "hora_fin": "19:00",
+    "pabellon": "2",
+    "aula": "116"
+  },
+  {
+    "materia": "Didáctica Esp.y Práctica de la Ens. I",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "18:00",
+    "hora_fin": "21:00",
+    "pabellon": "2",
+    "aula": "117"
+  },
+  {
+    "materia": "Análisis II/Matemática 3",
+    "turno": "TP2",
+    "tipo": "P",
+    "dia": "Miércoles",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "207"
+  },
+  {
+    "materia": "Mecánica y Termodinámica",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "2",
+    "aula": "207"
+  },
+  {
+    "materia": "Biotecnología Microbiana Ambiental",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Miércoles",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "2",
+    "aula": "QB"
+  },
+  {
+    "materia": "Modelado Numérico de la Atmósfera",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Miércoles",
+    "hora_inicio": "14:00",
+    "hora_fin": "18:00",
+    "pabellon": "2",
+    "aula": "SALA B"
+  },
+  {
+    "materia": "Estadística 1/Estadística 2",
+    "turno": null,
+    "tipo": null,
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:00",
+    "pabellon": "0",
+    "aula": "1101"
+  },
+  {
+    "materia": "Biometría",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1101"
+  },
+  {
+    "materia": "Int.Biología Molecular y Celular",
+    "turno": "T4",
+    "tipo": "S",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1102"
+  },
+  {
+    "materia": "Int.Biología Molecular y Celular",
+    "turno": "T5",
+    "tipo": "S",
+    "dia": "Jueves",
+    "hora_inicio": "13:30",
+    "hora_fin": "17:30",
+    "pabellon": "0",
+    "aula": "1102"
+  },
+  {
+    "materia": "Complementos de Química Inorgánica",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "18:00",
+    "hora_fin": "21:00",
+    "pabellon": "0",
+    "aula": "1102"
+  },
+  {
+    "materia": "SD/OCI",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1103"
+  },
+  {
+    "materia": "SD/OCI",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1103"
+  },
+  {
+    "materia": "SD/OCI",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1104"
+  },
+  {
+    "materia": "SD/OCI",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1104"
+  },
+  {
+    "materia": "AOC/OCII",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1105"
+  },
+  {
+    "materia": "Laboratorio de Datos",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:00",
+    "pabellon": "0",
+    "aula": "1106"
+  },
+  {
+    "materia": "Laboratorio de Datos",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "pabellon": "0",
+    "aula": "1106"
+  },
+  {
+    "materia": "AOC/OCII",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1106"
+  },
+  {
+    "materia": "Laboratorio de Datos",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:00",
+    "pabellon": "0",
+    "aula": "1107"
+  },
+  {
+    "materia": "Laboratorio de Datos",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "13:00",
+    "hora_fin": "16:00",
+    "pabellon": "0",
+    "aula": "1107"
+  },
+  {
+    "materia": "Int.a las Bases de Datos",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "18:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1107"
+  },
+  {
+    "materia": "Estadística/Int.Estadística y C.de Datos",
+    "turno": "PC",
+    "tipo": "PC",
+    "dia": "Jueves",
+    "hora_inicio": "11:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1110"
+  },
+  {
+    "materia": "Int.Bioinformática Molecular para Biól.",
+    "turno": "PC",
+    "tipo": "PC",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1112"
+  },
+  {
+    "materia": "Int.Redes Complejas con Aplic.",
+    "turno": null,
+    "tipo": "P",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1113"
+  },
+  {
+    "materia": "Tópicos de Biofísica Molecular",
+    "turno": null,
+    "tipo": null,
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1114"
+  },
+  {
+    "materia": "Química Orgánica",
+    "turno": "TB2",
+    "tipo": "P",
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1114"
+  },
+  {
+    "materia": "Estadística Computacional",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1114"
+  },
+  {
+    "materia": "Genética Humana con Laboratorio",
+    "turno": null,
+    "tipo": null,
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "18:00",
+    "pabellon": "0",
+    "aula": "1115"
+  },
+  {
+    "materia": "Historia de la Ciencia",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "18:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1115"
+  },
+  {
+    "materia": "Procesos Termodinámicos en la Atmósfera",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "8:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Biología de la Reproducción",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Jueves",
+    "hora_inicio": "13:30",
+    "hora_fin": "16:00",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Microbiología General e Industrial",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Jueves",
+    "hora_inicio": "16:00",
+    "hora_fin": "17:30",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Química Orgánica",
+    "turno": "TC",
+    "tipo": "P",
+    "dia": "Jueves",
+    "hora_inicio": "18:00",
+    "hora_fin": "21:00",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Análisis Real/Medida y Probabilidad",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1204"
+  },
+  {
+    "materia": "Taller de Tesis I",
+    "turno": null,
+    "tipo": null,
+    "dia": "Jueves",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1204"
+  },
+  {
+    "materia": "Biología de Peces",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Jueves",
+    "hora_inicio": "14:30",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1205"
+  },
+  {
+    "materia": "Ecología del Comportamiento",
+    "turno": "TPS",
+    "tipo": "P",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1206"
+  },
+  {
+    "materia": "Ecología del Comportamiento",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Jueves",
+    "hora_inicio": "13:00",
+    "hora_fin": "15:00",
+    "pabellon": "0",
+    "aula": "1206"
+  },
+  {
+    "materia": "Fisiología Vegetal",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Jueves",
+    "hora_inicio": "15:00",
+    "hora_fin": "18:00",
+    "pabellon": "0",
+    "aula": "1206"
+  },
+  {
+    "materia": "Química Orgánica",
+    "turno": "TC",
+    "tipo": "P",
+    "dia": "Jueves",
+    "hora_inicio": "18:00",
+    "hora_fin": "21:00",
+    "pabellon": "0",
+    "aula": "1206"
+  },
+  {
+    "materia": "Química Orgánica",
+    "turno": "TA",
+    "tipo": "P",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:00",
+    "pabellon": "0",
+    "aula": "1207"
+  },
+  {
+    "materia": "Química Orgánica",
+    "turno": "TB2",
+    "tipo": "P",
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1207"
+  },
+  {
+    "materia": "Estructura de la Materia 4",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "20:00",
+    "pabellon": "0",
+    "aula": "1207"
+  },
+  {
+    "materia": "Matemática 2",
+    "turno": "TP1",
+    "tipo": "P",
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1208"
+  },
+  {
+    "materia": "Ecología General",
+    "turno": "TP 2 M",
+    "tipo": "P",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1209"
+  },
+  {
+    "materia": "Ondas en la Atmósfera 2",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1209"
+  },
+  {
+    "materia": "Química General e Inorgánica 1",
+    "turno": null,
+    "tipo": null,
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "18:00",
+    "pabellon": "0",
+    "aula": "1301"
+  },
+  {
+    "materia": "Física 3",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1303"
+  },
+  {
+    "materia": "Estructura de la Materia 2",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:00",
+    "pabellon": "0",
+    "aula": "1304"
+  },
+  {
+    "materia": "Fisiología del Comportamiento Animal",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Jueves",
+    "hora_inicio": "13:30",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1304"
+  },
+  {
+    "materia": "Fisiología del Comportamiento Animal",
+    "turno": "TPs",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "0",
+    "aula": "1304"
+  },
+  {
+    "materia": "Probabilidades y Estadística",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1305"
+  },
+  {
+    "materia": "Análisis Estadístico de Datos Func.",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1306"
+  },
+  {
+    "materia": "Matemática 2",
+    "turno": "TP2",
+    "tipo": "P",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1306"
+  },
+  {
+    "materia": "Química Inorgánica 1",
+    "turno": "TP01",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1307"
+  },
+  {
+    "materia": "Temas de Física",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "15:00",
+    "hora_fin": "20:00",
+    "pabellon": "0",
+    "aula": "1307"
+  },
+  {
+    "materia": "Fundamentos de Láseres",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1308"
+  },
+  {
+    "materia": "Temas de Materia Cond.: Superc.",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1308"
+  },
+  {
+    "materia": "Taller de Tesis I",
+    "turno": null,
+    "tipo": null,
+    "dia": "Jueves",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1308"
+  },
+  {
+    "materia": "Química General e Inorgánica I",
+    "turno": "TP01",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:30",
+    "pabellon": "0",
+    "aula": "1309"
+  },
+  {
+    "materia": "Química General e Inorgánica I",
+    "turno": "TP03",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "13:00",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1309"
+  },
+  {
+    "materia": "Química General e Inorgánica I",
+    "turno": "TP05",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "17:30",
+    "hora_fin": "21:00",
+    "pabellon": "0",
+    "aula": "1309"
+  },
+  {
+    "materia": "Introducción a la Zoología",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:00",
+    "pabellon": "0",
+    "aula": "1403"
+  },
+  {
+    "materia": "Sistemas Operativos",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1403"
+  },
+  {
+    "materia": "Estadística/Int.Estadística y C.de Datos",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "11:00",
+    "pabellon": "1",
+    "aula": "2"
+  },
+  {
+    "materia": "Criptografía Moderna - VISIT2024",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "pabellon": "1",
+    "aula": "2"
+  },
+  {
+    "materia": "Aprendizaje Automático I",
+    "turno": null,
+    "tipo": "P",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "1",
+    "aula": "2"
+  },
+  {
+    "materia": "Análisis I/Matemática 1",
+    "turno": "TP3",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "3"
+  },
+  {
+    "materia": "Introducción al Modelado Continuo",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "pabellon": "1",
+    "aula": "3"
+  },
+  {
+    "materia": "Análisis Avanzado",
+    "turno": "TP3",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "1",
+    "aula": "3"
+  },
+  {
+    "materia": "Física 3",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "4"
+  },
+  {
+    "materia": "Análisis I/Matemática 1",
+    "turno": "TP4",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "1",
+    "aula": "4"
+  },
+  {
+    "materia": "Fundamentos de Procesos Químicos (FIUBA)",
+    "turno": null,
+    "tipo": null,
+    "dia": "Jueves",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "4"
+  },
+  {
+    "materia": "Análisis Avanzado",
+    "turno": "TP1",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "5"
+  },
+  {
+    "materia": "Probabilidad",
+    "turno": "TP2",
+    "tipo": "P",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "5"
+  },
+  {
+    "materia": "Física Teórica 2",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "6"
+  },
+  {
+    "materia": "AOC/Organización del Computador II",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "6"
+  },
+  {
+    "materia": "SD/Organización del Computador I",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "8:00",
+    "hora_fin": "10:00",
+    "pabellon": "1",
+    "aula": "7"
+  },
+  {
+    "materia": "SD/Organización del Computador I",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "19:00",
+    "pabellon": "1",
+    "aula": "7"
+  },
+  {
+    "materia": "Métodos de Elementos Finitos y Aplic.",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:00",
+    "pabellon": "1",
+    "aula": "E24"
+  },
+  {
+    "materia": "Análisis No Lineal. Métodos Topológicos",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "1",
+    "aula": "E24"
+  },
+  {
+    "materia": "Geometría Diferencial",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "E24"
+  },
+  {
+    "materia": "Meteorología Sinóptica",
+    "turno": "PC",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "8:00",
+    "hora_fin": "13:00",
+    "pabellon": "1",
+    "aula": "Labo 1"
+  },
+  {
+    "materia": "Ecología del Comportamiento",
+    "turno": "TPS",
+    "tipo": "P",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "1",
+    "aula": "Labo 2"
+  },
+  {
+    "materia": "Int.Redes Complejas con Aplic.",
+    "turno": null,
+    "tipo": "P",
+    "dia": "Jueves",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "Labo 2"
+  },
+  {
+    "materia": "Análisis I/Matemática 1",
+    "turno": "TP1",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "5"
+  },
+  {
+    "materia": "Análisis I/Matemática 1",
+    "turno": "TP5",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "2",
+    "aula": "5"
+  },
+  {
+    "materia": "Mecánica Clásica",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "2",
+    "aula": "6"
+  },
+  {
+    "materia": "Análisis I/Matemática 1",
+    "turno": "TP2",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "12"
+  },
+  {
+    "materia": "Problemática Educativa",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "2",
+    "aula": "15"
+  },
+  {
+    "materia": "Problemática Educativa",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "18:00",
+    "hora_fin": "22:00",
+    "pabellon": "2",
+    "aula": "15"
+  },
+  {
+    "materia": "Curso de Electricidad - Comisión Interna",
+    "turno": null,
+    "tipo": null,
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:00",
+    "pabellon": "2",
+    "aula": "111"
+  },
+  {
+    "materia": "Estudio de Ecuaciones Diofanticas",
+    "turno": null,
+    "tipo": null,
+    "dia": "Jueves",
+    "hora_inicio": "16:00",
+    "hora_fin": "18:30",
+    "pabellon": "2",
+    "aula": "111"
+  },
+  {
+    "materia": "Biología Comparada de Protistas",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Jueves",
+    "hora_inicio": "18:30",
+    "hora_fin": "20:30",
+    "pabellon": "2",
+    "aula": "111"
+  },
+  {
+    "materia": "Ecología y Epid.de Infec.Parasitarias",
+    "turno": "TPS",
+    "tipo": "P",
+    "dia": "Jueves",
+    "hora_inicio": "8:30",
+    "hora_fin": "11:30",
+    "pabellon": "2",
+    "aula": "112"
+  },
+  {
+    "materia": "Ecología y Epid.de Infec.Parasitarias",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Jueves",
+    "hora_inicio": "12:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "112"
+  },
+  {
+    "materia": "Dinámica del Océano",
+    "turno": "T/P",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "2",
+    "aula": "112"
+  },
+  {
+    "materia": "Identificación y Producción de Hongos",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Jueves",
+    "hora_inicio": "13:00",
+    "hora_fin": "15:00",
+    "pabellon": "2",
+    "aula": "114"
+  },
+  {
+    "materia": "Química Inorgánica 1",
+    "turno": "TP02",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "18:00",
+    "hora_fin": "22:00",
+    "pabellon": "2",
+    "aula": "114"
+  },
+  {
+    "materia": "Botánica Económica",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "17:30",
+    "hora_fin": "21:30",
+    "pabellon": "2",
+    "aula": "115"
+  },
+  {
+    "materia": "Genética de Poblaciones",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:30",
+    "pabellon": "2",
+    "aula": "116"
+  },
+  {
+    "materia": "Genética de Poblaciones",
+    "turno": "TPS",
+    "tipo": "P",
+    "dia": "Jueves",
+    "hora_inicio": "13:00",
+    "hora_fin": "17:00",
+    "pabellon": "2",
+    "aula": "116"
+  },
+  {
+    "materia": "Química del Agua de Mar",
+    "turno": "T-P",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "2",
+    "aula": "117"
+  },
+  {
+    "materia": "Int.Fisiología Animal",
+    "turno": null,
+    "tipo": null,
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "18:00",
+    "pabellon": "2",
+    "aula": "117"
+  },
+  {
+    "materia": "Análisis Avanzado",
+    "turno": "TP2",
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "2",
+    "aula": "203"
+  },
+  {
+    "materia": "Probabilidad",
+    "turno": "TP1",
+    "tipo": "P",
+    "dia": "Jueves",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "207"
+  },
+  {
+    "materia": "Taller de Cálculo Avanzado",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Jueves",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "2",
+    "aula": "207"
+  },
+  {
+    "materia": "Int.Biología Molecular y Celular",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Jueves",
+    "hora_inicio": "18:00",
+    "hora_fin": "21:00",
+    "pabellon": "2",
+    "aula": "Magna"
+  },
+  {
+    "materia": "Mecánica y Termodinámica",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1101"
+  },
+  {
+    "materia": "ARI/Base de Datos",
+    "turno": null,
+    "tipo": "P",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1101"
+  },
+  {
+    "materia": "Int.Biología Molecular y Celular",
+    "turno": "T6",
+    "tipo": "S",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1102"
+  },
+  {
+    "materia": "Int.Biología Molecular y Celular",
+    "turno": "T7",
+    "tipo": "S",
+    "dia": "Viernes",
+    "hora_inicio": "18:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1102"
+  },
+  {
+    "materia": "AED/AEDII",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1103"
+  },
+  {
+    "materia": "AED/AEDII",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1103"
+  },
+  {
+    "materia": "IS/Ing.Software I",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1103"
+  },
+  {
+    "materia": "AED/AEDII",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1104"
+  },
+  {
+    "materia": "AED/AEDII",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1104"
+  },
+  {
+    "materia": "IS/Ing.Software I",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1104"
+  },
+  {
+    "materia": "AED/AEDII",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1105"
+  },
+  {
+    "materia": "IS/Ing.Software I",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1105"
+  },
+  {
+    "materia": "Bases de Programación/Taller de Inf./PC",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "13:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1106"
+  },
+  {
+    "materia": "AED/AEDII",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1106"
+  },
+  {
+    "materia": "Bases de Programación/Taller de Inf./PC",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "7:00",
+    "hora_fin": "11:00",
+    "pabellon": "0",
+    "aula": "1107"
+  },
+  {
+    "materia": "Bases de Programación/Taller de Inf,/PC",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "13:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1107"
+  },
+  {
+    "materia": "AED/AEDII",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1107"
+  },
+  {
+    "materia": "Bases de Programación/Taller de Inf,/PC",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Viernes",
+    "hora_inicio": "7:00",
+    "hora_fin": "11:00",
+    "pabellon": "0",
+    "aula": "1108"
+  },
+  {
+    "materia": "Bases de Programación/Taller de Inf./PC",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "7:00",
+    "hora_fin": "11:00",
+    "pabellon": "0",
+    "aula": "1109"
+  },
+  {
+    "materia": "Laboratorio de Datos",
+    "turno": "TM",
+    "tipo": "PC",
+    "dia": "Viernes",
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1110"
+  },
+  {
+    "materia": "Modelado Numérico de la Atmósfera (TRANSITORIO)",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1110"
+  },
+  {
+    "materia": "Data Mining",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Viernes",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1111"
+  },
+  {
+    "materia": "Introducción a la Programación Probabilística",
+    "turno": null,
+    "tipo": null,
+    "dia": "Viernes",
+    "hora_inicio": "18:00",
+    "hora_fin": "20:00",
+    "pabellon": "0",
+    "aula": "1112"
+  },
+  {
+    "materia": "Álgebra I",
+    "turno": "TP3",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1115"
+  },
+  {
+    "materia": "Física 2",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1115"
+  },
+  {
+    "materia": "Física II",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Física Teórica en Altas Energías",
+    "turno": null,
+    "tipo": null,
+    "dia": "Viernes",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Electromagnetismo y Òptica",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "0",
+    "aula": "1203"
+  },
+  {
+    "materia": "Métodos Estad.en Física Experimental",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1204"
+  },
+  {
+    "materia": "Int.Cs.de la Atmósfera y los Oc.",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "14:00",
+    "hora_fin": "18:00",
+    "pabellon": "0",
+    "aula": "1204"
+  },
+  {
+    "materia": "Ecuaciones Diferenciales Ordinarias",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1205"
+  },
+  {
+    "materia": "Álgebra II",
+    "turno": null,
+    "tipo": "P",
+    "dia": "Viernes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1205"
+  },
+  {
+    "materia": "Optimización/Tópicos de Optimización",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "19:00",
+    "hora_fin": "21:00",
+    "pabellon": "0",
+    "aula": "1205"
+  },
+  {
+    "materia": "Organización y Función Celular",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Viernes",
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1206"
+  },
+  {
+    "materia": "Estudio de Ecuaciones Diofanticas",
+    "turno": null,
+    "tipo": null,
+    "dia": "Viernes",
+    "hora_inicio": "16:00",
+    "hora_fin": "19:00",
+    "pabellon": "0",
+    "aula": "1206"
+  },
+  {
+    "materia": "Análisis Matemático III/Matemática 4",
+    "turno": "T1",
+    "tipo": "P",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1207"
+  },
+  {
+    "materia": "Biología Sensorial Animal",
+    "turno": null,
+    "tipo": null,
+    "dia": "Viernes",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1207"
+  },
+  {
+    "materia": "Inglés Universitario IA",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1208"
+  },
+  {
+    "materia": "Inglés Universitario IIA",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "11:30",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1209"
+  },
+  {
+    "materia": "Seminario de Análisis Armónico y Funcional ",
+    "turno": null,
+    "tipo": null,
+    "dia": "Viernes",
+    "hora_inicio": "14:30",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1209"
+  },
+  {
+    "materia": "Int,Dinámica de la Atmósfera/Radiación",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "8:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1303"
+  },
+  {
+    "materia": "Topología Diferencial",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "14:00",
+    "hora_fin": "16:00",
+    "pabellon": "0",
+    "aula": "1303"
+  },
+  {
+    "materia": "Biotecnología",
+    "turno": null,
+    "tipo": null,
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:30",
+    "pabellon": "0",
+    "aula": "1303"
+  },
+  {
+    "materia": "Estadística Secuencial ",
+    "turno": "carro",
+    "tipo": "carro",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1304"
+  },
+  {
+    "materia": "Conversation club!",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "11:00",
+    "hora_fin": "12:30",
+    "pabellon": "0",
+    "aula": "1305"
+  },
+  {
+    "materia": "Talleres de Tecnicas de Estudio",
+    "turno": null,
+    "tipo": null,
+    "dia": "Viernes",
+    "hora_inicio": "14:30",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1305"
+  },
+  {
+    "materia": "Física 4",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1305"
+  },
+  {
+    "materia": "Temas de NLP / NLP Aplicado",
+    "turno": null,
+    "tipo": null,
+    "dia": "Viernes",
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1306"
+  },
+  {
+    "materia": "Análisis Funcional",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "0",
+    "aula": "1306"
+  },
+  {
+    "materia": "Alemán II/Alemán 2,2",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "10:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1307"
+  },
+  {
+    "materia": "Química General e Inorgánica I",
+    "turno": "TP02",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:30",
+    "pabellon": "0",
+    "aula": "1309"
+  },
+  {
+    "materia": "Química General e Inorgánica I",
+    "turno": "TP04",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "13:00",
+    "hora_fin": "16:30",
+    "pabellon": "0",
+    "aula": "1309"
+  },
+  {
+    "materia": "Estructura de la Materia 1",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "20:00",
+    "pabellon": "0",
+    "aula": "1309"
+  },
+  {
+    "materia": "Fund. de Art.Gral.Intelligence Safety",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "0",
+    "aula": "1403"
+  },
+  {
+    "materia": "Física 2",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "2"
+  },
+  {
+    "materia": "Mecánica y Termodinámica",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "1",
+    "aula": "2"
+  },
+  {
+    "materia": "Cálculo Avanzado",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "3"
+  },
+  {
+    "materia": "Análisis Matemático III/Matemática 4",
+    "turno": "T2",
+    "tipo": "P",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "3"
+  },
+  {
+    "materia": "Álgebra I",
+    "turno": "TP2",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "4"
+  },
+  {
+    "materia": "Álgebra I",
+    "turno": "TP4",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "1",
+    "aula": "4"
+  },
+  {
+    "materia": "Investigación Operativa",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "1",
+    "aula": "5"
+  },
+  {
+    "materia": "Paradigmas de Programación",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "1",
+    "aula": "6"
+  },
+  {
+    "materia": "Ingeniería de Software",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "19:00",
+    "pabellon": "1",
+    "aula": "6"
+  },
+  {
+    "materia": "Electromagnetismo y Òptica",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "1",
+    "aula": "7"
+  },
+  {
+    "materia": "Métodos de Elementos Finitos y Aplic.",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "12:00",
+    "pabellon": "1",
+    "aula": "E24"
+  },
+  {
+    "materia": "Observación y Diseño Experimental",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "8:00",
+    "hora_fin": "13:00",
+    "pabellon": "1",
+    "aula": "Labo 1"
+  },
+  {
+    "materia": "Int.Estadística Robusta",
+    "turno": null,
+    "tipo": null,
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "Labo 1"
+  },
+  {
+    "materia": "Optimización/Tópicos de Optimización",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "16:00",
+    "hora_fin": "19:00",
+    "pabellon": "1",
+    "aula": "Labo 2"
+  },
+  {
+    "materia": "Paradigmas de Programación",
+    "turno": null,
+    "tipo": null,
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "1",
+    "aula": "Magna"
+  },
+  {
+    "materia": "Álgebra I",
+    "turno": "TP1",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "5"
+  },
+  {
+    "materia": "Física 1",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "2",
+    "aula": "5"
+  },
+  {
+    "materia": "Física 1",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "6"
+  },
+  {
+    "materia": "Álgebra Lineal Computacional/MN",
+    "turno": "TT",
+    "tipo": "T",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "2",
+    "aula": "6"
+  },
+  {
+    "materia": "Álgebra Lineal Computacional/MN",
+    "turno": "TM",
+    "tipo": "T",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "12"
+  },
+  {
+    "materia": "Álgebra I",
+    "turno": "TP5",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "22:00",
+    "pabellon": "2",
+    "aula": "12"
+  },
+  {
+    "materia": "Didáctica Esp.y Práctica de la Ens. II",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "14:00",
+    "hora_fin": "18:00",
+    "pabellon": "2",
+    "aula": "15"
+  },
+  {
+    "materia": "Seminario de Oceanografía",
+    "turno": "p",
+    "tipo": "P",
+    "dia": "Viernes",
+    "hora_inicio": "8:00",
+    "hora_fin": "13:00",
+    "pabellon": "2",
+    "aula": "112"
+  },
+  {
+    "materia": "Meteorología Agrícola 1",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "2",
+    "aula": "112"
+  },
+  {
+    "materia": "Física Contemporanea",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "2",
+    "aula": "113"
+  },
+  {
+    "materia": "Oceanografía Aplicada",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "8:00",
+    "hora_fin": "13:00",
+    "pabellon": "2",
+    "aula": "114"
+  },
+  {
+    "materia": "Modelado Numérico de la Atmósfera",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "2",
+    "aula": "114"
+  },
+  {
+    "materia": "Diversidad Fúngica",
+    "turno": null,
+    "tipo": null,
+    "dia": "Viernes",
+    "hora_inicio": "11:00",
+    "hora_fin": "13:00",
+    "pabellon": "2",
+    "aula": "115"
+  },
+  {
+    "materia": "Biología Molecular de Mic.Eucariotas",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "21:00",
+    "pabellon": "2",
+    "aula": "116"
+  },
+  {
+    "materia": "Álgebra Lineal Computacional/MN",
+    "turno": "TM2",
+    "tipo": "T",
+    "dia": "Viernes",
+    "hora_inicio": "11:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "203"
+  },
+  {
+    "materia": "Química Biológica",
+    "turno": "T1",
+    "tipo": "P",
+    "dia": "Viernes",
+    "hora_inicio": "17:00",
+    "hora_fin": "20:00",
+    "pabellon": "2",
+    "aula": "203"
+  },
+  {
+    "materia": "Física 4",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "2",
+    "aula": "207"
+  },
+  {
+    "materia": "Álgebra Lineal",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "14:00",
+    "hora_fin": "19:00",
+    "pabellon": "2",
+    "aula": "207"
+  },
+  {
+    "materia": "Álgebra Lineal Computacional/MN",
+    "turno": "TT2",
+    "tipo": "T",
+    "dia": "Viernes",
+    "hora_inicio": "19:00",
+    "hora_fin": "22:00",
+    "pabellon": "2",
+    "aula": "207"
+  },
+  {
+    "materia": "Modelado Numérico de la Atmósfera",
+    "turno": "TP",
+    "tipo": "TP",
+    "dia": "Viernes",
+    "hora_inicio": "14:00",
+    "hora_fin": "17:00",
+    "pabellon": "2",
+    "aula": "SALA A"
+  },
+  {
+    "materia": "Olas/Olas en Aguas Costeras y Oceánicas",
+    "turno": "PC",
+    "tipo": "T",
+    "dia": "Viernes",
+    "hora_inicio": "14:00",
+    "hora_fin": "22:00",
+    "pabellon": "2",
+    "aula": "SALA B"
+  },
+  {
+    "materia": "Bases de Programación/Taller de Inf,/PC",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Sábado",
+    "hora_inicio": "13:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1107"
+  },
+  {
+    "materia": "Modelado Estadístico",
+    "turno": null,
+    "tipo": null,
+    "dia": "Sábado",
+    "hora_inicio": "9:00",
+    "hora_fin": "14:00",
+    "pabellon": "0",
+    "aula": "1108"
+  },
+  {
+    "materia": "Redes Neuronales",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Sábado",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1109"
+  },
+  {
+    "materia": "Bases de Programación/Taller de Inf,/PC",
+    "turno": null,
+    "tipo": "PC",
+    "dia": "Sábado",
+    "hora_inicio": "13:00",
+    "hora_fin": "17:00",
+    "pabellon": "0",
+    "aula": "1109"
+  },
+  {
+    "materia": "Análisis Inteligente de Datos",
+    "turno": null,
+    "tipo": "TP",
+    "dia": "Sábado",
+    "hora_inicio": "9:00",
+    "hora_fin": "13:00",
+    "pabellon": "0",
+    "aula": "1403"
+  },
+  {
+    "materia": "Int.Biología Molecular y Celular",
+    "turno": null,
+    "tipo": "T",
+    "dia": "Sábado",
+    "hora_inicio": "9:30",
+    "hora_fin": "12:30",
+    "pabellon": "2",
+    "aula": "Magna"
+  }
+]

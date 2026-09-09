@@ -1,0 +1,808 @@
+[
+  {
+    "materia": "algo_1",
+    "turno": "Mañana",
+    "profesores": [
+      "Altauz, Javier",
+      "De Cristóforis, Pablo",
+      "Di Piazza, Gabriela Melisa",
+      "Urtasun, Martin"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Jueves",
+        "hora_inicio": "09:30",
+        "hora_fin": "13:30"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Lunes",
+        "hora_inicio": "10:30",
+        "hora_fin": "13:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Miércoles",
+        "hora_inicio": "10:30",
+        "hora_fin": "13:00"
+      }
+    ]
+  },
+  {
+    "materia": "algo_1",
+    "turno": "Tarde",
+    "profesores": [
+      "Altauz, Javier",
+      "De Cristóforis, Pablo",
+      "Di Piazza, Gabriela Melisa",
+      "Urtasun, Martin"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Jueves",
+        "hora_inicio": "13:30",
+        "hora_fin": "17:30"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Lunes",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:30"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Miércoles",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:30"
+      }
+    ]
+  },
+  {
+    "materia": "algo_1",
+    "turno": "Noche",
+    "profesores": [
+      "Altauz, Javier",
+      "De Cristóforis, Pablo",
+      "Di Piazza, Gabriela Melisa",
+      "Urtasun, Martin"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Jueves",
+        "hora_inicio": "17:30",
+        "hora_fin": "21:30"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Lunes",
+        "hora_inicio": "19:00",
+        "hora_fin": "21:30"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Miércoles",
+        "hora_inicio": "19:00",
+        "hora_fin": "21:30"
+      }
+    ]
+  },
+  {
+    "materia": "algo_2",
+    "turno": "Mañana-Labo Mañana",
+    "profesores": [
+      "Feuerstein, Esteban Zindel",
+      "Tcach Lufrano, Alexis Guido",
+      "Uchitel, Sebastian",
+      "Bianchi, Bruno"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "14:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "09:00",
+        "hora_fin": "14:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Viernes",
+        "hora_inicio": "09:00",
+        "hora_fin": "14:00"
+      }
+    ]
+  },
+  {
+    "materia": "algo_2",
+    "turno": "Mañana-Labo Tarde",
+    "profesores": [
+      "Feuerstein, Esteban Zindel",
+      "Tcach Lufrano, Alexis Guido",
+      "Uchitel, Sebastian",
+      "Bianchi, Bruno"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "14:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "09:00",
+        "hora_fin": "14:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Viernes",
+        "hora_inicio": "14:00",
+        "hora_fin": "19:00"
+      }
+    ]
+  },
+  {
+    "materia": "algo_2",
+    "turno": "Noche-Labo Noche",
+    "profesores": [
+      "Feuerstein, Esteban Zindel",
+      "Tcach Lufrano, Alexis Guido",
+      "Uchitel, Sebastian",
+      "Bianchi, Bruno"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Viernes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "algo_2",
+    "turno": "Noche-Labo Tarde",
+    "profesores": [
+      "Feuerstein, Esteban Zindel",
+      "Tcach Lufrano, Alexis Guido",
+      "Uchitel, Sebastian",
+      "Bianchi, Bruno"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Viernes",
+        "hora_inicio": "14:00",
+        "hora_fin": "19:00"
+      }
+    ]
+  },
+  {
+    "materia": "algo_3",
+    "turno": "Mañana",
+    "profesores": [
+      "Bendersky, Ariel Martín",
+      "Lin, Min Chih"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Lunes",
+        "hora_inicio": "09:00",
+        "hora_fin": "13:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "09:00",
+        "hora_fin": "13:00"
+      }
+    ]
+  },
+  {
+    "materia": "algo_3",
+    "turno": "Noche",
+    "profesores": [
+      "Bendersky, Ariel Martín",
+      "Lin, Min Chih"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Lunes",
+        "hora_inicio": "17:00",
+        "hora_fin": "21:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "17:00",
+        "hora_fin": "21:00"
+      }
+    ]
+  },
+  {
+    "materia": "sist_dig",
+    "turno": "Mañana",
+    "profesores": [
+      "Buemi, María Elena",
+      "Cervetto, Marcos",
+      "Marchi, Edgardo",
+      "López y Rosenfeld, Matías"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Jueves",
+        "hora_inicio": "08:00",
+        "hora_fin": "10:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Jueves",
+        "hora_inicio": "10:00",
+        "hora_fin": "13:00"
+      }
+    ]
+  },
+  {
+    "materia": "sist_dig",
+    "turno": "Noche",
+    "profesores": [
+      "Buemi, María Elena",
+      "Cervetto, Marcos",
+      "Marchi, Edgardo",
+      "López y Rosenfeld, Matías"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Jueves",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Jueves",
+        "hora_inicio": "19:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "plp",
+    "turno": "Mañana",
+    "profesores": [
+      "Cardiff, Brian",
+      "Steren, Gabriela"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Viernes",
+        "hora_inicio": "09:00",
+        "hora_fin": "14:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "14:00"
+      }
+    ]
+  },
+  {
+    "materia": "plp",
+    "turno": "Noche",
+    "profesores": [
+      "Cardiff, Brian",
+      "Steren, Gabriela"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Viernes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "lfac",
+    "turno": "Única",
+    "profesores": [
+      "Becher, Veronica Andrea"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Miércoles",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "19:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "arq_org_compu",
+    "turno": "A",
+    "profesores": [
+      "Furfaro, Alejandro",
+      "Gonzalez Marquez"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Lunes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Jueves",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "arq_org_compu",
+    "turno": "B",
+    "profesores": [
+      "Furfaro, Alejandro",
+      "Gonzalez Marquez"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Jueves",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Lunes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "inge_soft",
+    "turno": "Única",
+    "profesores": [
+      "Wilkinson, Hernan"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:00"
+      },
+      {
+        "tipo": "Teórica",
+        "dia": "Viernes",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Martes",
+        "hora_inicio": "19:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Viernes",
+        "hora_inicio": "19:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "alc",
+    "turno": "Mañana",
+    "profesores": [
+      "Acevedo, Daniel",
+      "Negri, Pablo Augusto",
+      "Salgado Corrado, Ariel Olaf"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+      },
+      {
+        "tipo": "Teórica",
+        "dia": "Viernes",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Viernes",
+        "hora_inicio": "11:00",
+        "hora_fin": "14:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Martes",
+        "hora_inicio": "11:00",
+        "hora_fin": "14:00"
+      }
+    ]
+  },
+  {
+    "materia": "alc",
+    "turno": "Noche",
+    "profesores": [
+      "Acevedo, Daniel",
+      "Negri, Pablo Augusto",
+      "Salgado Corrado, Ariel Olaf"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:00"
+      },
+      {
+        "tipo": "Teórica",
+        "dia": "Viernes",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Viernes",
+        "hora_inicio": "19:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Martes",
+        "hora_inicio": "19:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "labo_datos",
+    "turno": "A",
+    "profesores": [
+      "Cerdeiro, Manuela",
+      "Kamienkowski, Juan Esteban"
+    ],
+    "horarios": [
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Jueves",
+        "hora_inicio": "09:00",
+        "hora_fin": "12:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Jueves",
+        "hora_inicio": "13:00",
+        "hora_fin": "16:00"
+      }
+    ]
+  },
+  {
+    "materia": "labo_datos",
+    "turno": "B",
+    "profesores": [
+      "Cerdeiro, Manuela",
+      "Kamienkowski, Juan Esteban"
+    ],
+    "horarios": [
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Jueves",
+        "hora_inicio": "09:00",
+        "hora_fin": "12:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Jueves",
+        "hora_inicio": "13:00",
+        "hora_fin": "16:00"
+      }
+    ]
+  },
+  {
+    "materia": "sist_op",
+    "turno": "Única",
+    "profesores": [
+      "Baader, Rodolfo Pablo"
+    ],
+    "horarios": [
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Lunes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Jueves",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "comp_compu",
+    "turno": "Única",
+    "profesores": [
+      "Figueira, Santiago"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Miércoles",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "19:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "rc_cd",
+    "turno": "Única",
+    "profesores": [
+      "Castro, Rodrigo Daniel",
+      "Righetti, Claudio Enrique",
+      "Lanzarotti, Esteban"
+    ],
+    "horarios": [
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:30"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Martes",
+        "hora_inicio": "19:30",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Teórica",
+        "dia": "Jueves",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:30"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Jueves",
+        "hora_inicio": "19:30",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "pcp",
+    "turno": "Única",
+    "profesores": [
+      "Melgratti, Hernán"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Lunes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "est_comp",
+    "turno": "Mañana-Tarde",
+    "profesores": [
+      "Laje, Rodrigo",
+      "Riera, Pablo"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Jueves",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "14:00"
+      }
+    ]
+  },
+  {
+    "materia": "est_comp",
+    "turno": "Tarde-Tarde",
+    "profesores": [
+      "Laje, Rodrigo",
+      "Riera, Pablo"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Jueves",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "ari",
+    "turno": "Única",
+    "profesores": [
+      "Platzer, Emilio"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Miércoles",
+        "hora_inicio": "19:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Viernes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Miércoles",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:00"
+      }
+    ]
+  },
+  {
+    "materia": "semi_ts",
+    "turno": "Única",
+    "profesores": [
+      "Schapachnik, Fernando Pablo"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "20:00"
+      }
+    ]
+  },
+  {
+    "materia": "invop",
+    "turno": "Única",
+    "profesores": [
+      "Méndez Díaz, Isabel",
+      "Zabala, Paula Lorena"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "13:00"
+      },
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Viernes",
+        "hora_inicio": "09:00",
+        "hora_fin": "13:00"
+      }
+    ]
+  },
+  {
+    "materia": "taller_info",
+    "turno": "Mañana",
+    "profesores": [
+      "Cossio Mercado, Christian Gustavo"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Miércoles",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Viernes",
+        "hora_inicio": "12:00",
+        "hora_fin": "16:00"
+      }
+    ]
+  },
+  {
+    "materia": "taller_info",
+    "turno": "Tarde",
+    "profesores": [
+      "Cossio Mercado, Christian Gustavo"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Miércoles",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Viernes",
+        "hora_inicio": "12:00",
+        "hora_fin": "16:00"
+      }
+    ]
+  }
+]

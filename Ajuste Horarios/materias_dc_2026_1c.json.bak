@@ -1,0 +1,1058 @@
+[
+  {
+    "materia": "Introducción a la Programación / Algoritmos y Estructuras de Datos I / Introducción a la Computación",
+    "turno": "Mañana",
+    "profesores": [
+      "Altauz, Javier",
+      "De Cristóforis, Pablo",
+      "Di Piazza, Gabriela Melisa",
+      "Urtasun, Martin"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Jueves",
+        "hora_inicio": "09:30",
+        "hora_fin": "13:30"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Lunes",
+        "hora_inicio": "10:30",
+        "hora_fin": "13:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Miércoles",
+        "hora_inicio": "10:30",
+        "hora_fin": "13:00"
+      }
+    ]
+  },
+  {
+    "materia": "Introducción a la Programación / Algoritmos y Estructuras de Datos I / Introducción a la Computación",
+    "turno": "Tarde",
+    "profesores": [
+      "Altauz, Javier",
+      "De Cristóforis, Pablo",
+      "Di Piazza, Gabriela Melisa",
+      "Urtasun, Martin"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Jueves",
+        "hora_inicio": "13:30",
+        "hora_fin": "17:30"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Lunes",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:30"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Miércoles",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:30"
+      }
+    ]
+  },
+  {
+    "materia": "Introducción a la Programación / Algoritmos y Estructuras de Datos I / Introducción a la Computación",
+    "turno": "Noche",
+    "profesores": [
+      "Altauz, Javier",
+      "De Cristóforis, Pablo",
+      "Di Piazza, Gabriela Melisa",
+      "Urtasun, Martin"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Jueves",
+        "hora_inicio": "17:30",
+        "hora_fin": "21:30"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Lunes",
+        "hora_inicio": "19:00",
+        "hora_fin": "21:30"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Miércoles",
+        "hora_inicio": "19:00",
+        "hora_fin": "21:30"
+      }
+    ]
+  },
+  {
+    "materia": "Algoritmos y Estructura de Datos / Algoritmos y Estructuras de Datos II",
+    "turno": "Mañana-Labo Mañana",
+    "profesores": [
+      "Feuerstein, Esteban Zindel",
+      "Tcach Lufrano, Alexis Guido",
+      "Uchitel, Sebastian",
+      "Bianchi, Bruno"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "14:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "09:00",
+        "hora_fin": "14:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Viernes",
+        "hora_inicio": "09:00",
+        "hora_fin": "14:00"
+      }
+    ]
+  },
+  {
+    "materia": "Algoritmos y Estructura de Datos / Algoritmos y Estructuras de Datos II",
+    "turno": "Mañana-Labo Tarde",
+    "profesores": [
+      "Feuerstein, Esteban Zindel",
+      "Tcach Lufrano, Alexis Guido",
+      "Uchitel, Sebastian",
+      "Bianchi, Bruno"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "14:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "09:00",
+        "hora_fin": "14:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Viernes",
+        "hora_inicio": "14:00",
+        "hora_fin": "19:00"
+      }
+    ]
+  },
+  {
+    "materia": "Algoritmos y Estructura de Datos / Algoritmos y Estructuras de Datos II",
+    "turno": "Noche-Labo Noche",
+    "profesores": [
+      "Feuerstein, Esteban Zindel",
+      "Tcach Lufrano, Alexis Guido",
+      "Uchitel, Sebastian",
+      "Bianchi, Bruno"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Viernes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "Algoritmos y Estructura de Datos / Algoritmos y Estructuras de Datos II",
+    "turno": "Noche-Labo Tarde",
+    "profesores": [
+      "Feuerstein, Esteban Zindel",
+      "Tcach Lufrano, Alexis Guido",
+      "Uchitel, Sebastian",
+      "Bianchi, Bruno"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Viernes",
+        "hora_inicio": "14:00",
+        "hora_fin": "19:00"
+      }
+    ]
+  },
+  {
+    "materia": "Técnicas de Diseño de Algoritmos / Algoritmos y Estructuras de Datos III",
+    "turno": "Mañana",
+    "profesores": [
+      "Bendersky, Ariel Martín",
+      "Lin, Min Chih"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Lunes",
+        "hora_inicio": "09:00",
+        "hora_fin": "13:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "09:00",
+        "hora_fin": "13:00"
+      }
+    ]
+  },
+  {
+    "materia": "Técnicas de Diseño de Algoritmos / Algoritmos y Estructuras de Datos III",
+    "turno": "Noche",
+    "profesores": [
+      "Bendersky, Ariel Martín",
+      "Lin, Min Chih"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Lunes",
+        "hora_inicio": "17:00",
+        "hora_fin": "21:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "17:00",
+        "hora_fin": "21:00"
+      }
+    ]
+  },
+  {
+    "materia": "Sistemas Digitales / Organización del Computador I",
+    "turno": "Mañana",
+    "profesores": [
+      "Buemi, María Elena",
+      "Cervetto, Marcos",
+      "Marchi, Edgardo",
+      "López y Rosenfeld, Matías"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Jueves",
+        "hora_inicio": "08:00",
+        "hora_fin": "10:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Jueves",
+        "hora_inicio": "10:00",
+        "hora_fin": "13:00"
+      }
+    ]
+  },
+  {
+    "materia": "Sistemas Digitales / Organización del Computador I",
+    "turno": "Noche",
+    "profesores": [
+      "Buemi, María Elena",
+      "Cervetto, Marcos",
+      "Marchi, Edgardo",
+      "López y Rosenfeld, Matías"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Jueves",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Jueves",
+        "hora_inicio": "19:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "Paradigmas de Programación",
+    "turno": "Mañana",
+    "profesores": [
+      "Cardiff, Brian",
+      "Steren, Gabriela"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Viernes",
+        "hora_inicio": "09:00",
+        "hora_fin": "14:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "14:00"
+      }
+    ]
+  },
+  {
+    "materia": "Paradigmas de Programación",
+    "turno": "Noche",
+    "profesores": [
+      "Cardiff, Brian",
+      "Steren, Gabriela"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Viernes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "Lenguajes Formales, Autómatas y Computabilidad / Teoría de los Lenguajes",
+    "turno": "Única",
+    "profesores": [
+      "Becher, Veronica Andrea"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Miércoles",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "19:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "Arquitectura y Organización de Computadores / Organización del Computador II",
+    "turno": "A",
+    "profesores": [
+      "Furfaro, Alejandro",
+      "Gonzalez Marquez"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Lunes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Jueves",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "Arquitectura y Organización de Computadores / Organización del Computador II",
+    "turno": "B",
+    "profesores": [
+      "Furfaro, Alejandro",
+      "Gonzalez Marquez"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Jueves",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Lunes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "Ingeniería de Software / Ingeniería del Software I",
+    "turno": "Única",
+    "profesores": [
+      "Wilkinson, Hernan"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:00"
+      },
+      {
+        "tipo": "Teórica",
+        "dia": "Viernes",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Martes",
+        "hora_inicio": "19:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Viernes",
+        "hora_inicio": "19:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "Ingeniería de Software II / Ingeniería de Software Automatizada",
+    "turno": "Única",
+    "profesores": [
+      "Galeotti, Juan Pablo"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Lunes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Miércoles",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "Álgebra Lineal Computacional / Métodos Numéricos",
+    "turno": "Mañana",
+    "profesores": [
+      "Acevedo, Daniel",
+      "Negri, Pablo Augusto",
+      "Salgado Corrado, Ariel Olaf"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+      },
+      {
+        "tipo": "Teórica",
+        "dia": "Viernes",
+        "hora_inicio": "09:00",
+        "hora_fin": "11:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Viernes",
+        "hora_inicio": "11:00",
+        "hora_fin": "14:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Martes",
+        "hora_inicio": "11:00",
+        "hora_fin": "14:00"
+      }
+    ]
+  },
+  {
+    "materia": "Álgebra Lineal Computacional / Métodos Numéricos",
+    "turno": "Noche",
+    "profesores": [
+      "Acevedo, Daniel",
+      "Negri, Pablo Augusto",
+      "Salgado Corrado, Ariel Olaf"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:00"
+      },
+      {
+        "tipo": "Teórica",
+        "dia": "Viernes",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Viernes",
+        "hora_inicio": "19:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Martes",
+        "hora_inicio": "19:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "Laboratorio de Datos – DC",
+    "turno": "A",
+    "profesores": [
+      "Cerdeiro, Manuela",
+      "Kamienkowski, Juan Esteban"
+    ],
+    "horarios": [
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Jueves",
+        "hora_inicio": "09:00",
+        "hora_fin": "12:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Jueves",
+        "hora_inicio": "13:00",
+        "hora_fin": "16:00"
+      }
+    ]
+  },
+  {
+    "materia": "Laboratorio de Datos – DC",
+    "turno": "B",
+    "profesores": [
+      "Cerdeiro, Manuela",
+      "Kamienkowski, Juan Esteban"
+    ],
+    "horarios": [
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Jueves",
+        "hora_inicio": "09:00",
+        "hora_fin": "12:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Jueves",
+        "hora_inicio": "13:00",
+        "hora_fin": "16:00"
+      }
+    ]
+  },
+  {
+    "materia": "Sistemas Operativos",
+    "turno": "Única",
+    "profesores": [
+      "Baader, Rodolfo Pablo"
+    ],
+    "horarios": [
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Lunes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Jueves",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "Complejidad Computacional / Lógica y Computabilidad",
+    "turno": "Única",
+    "profesores": [
+      "Figueira, Santiago"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Miércoles",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "19:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "Redes de Comunicaciones y Cómputo Distribuido / Teoría de las Comunicaciones",
+    "turno": "Única",
+    "profesores": [
+      "Castro, Rodrigo Daniel",
+      "Righetti, Claudio Enrique",
+      "Lanzarotti, Esteban"
+    ],
+    "horarios": [
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:30"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Martes",
+        "hora_inicio": "19:30",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Teórica",
+        "dia": "Jueves",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:30"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Jueves",
+        "hora_inicio": "19:30",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "Programación Concurrente y Paralela",
+    "turno": "Única",
+    "profesores": [
+      "Melgratti, Hernán"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Lunes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "Introducción a las Bases de Datos 2025",
+    "turno": "Única",
+    "profesores": [
+      "D’Arrigo, Sergio"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Martes",
+        "hora_inicio": "18:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Jueves",
+        "hora_inicio": "18:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "Estadística Computacional",
+    "turno": "Mañana-Tarde",
+    "profesores": [
+      "Laje, Rodrigo",
+      "Riera, Pablo"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Jueves",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "14:00"
+      }
+    ]
+  },
+  {
+    "materia": "Estadística Computacional",
+    "turno": "Tarde-Tarde",
+    "profesores": [
+      "Laje, Rodrigo",
+      "Riera, Pablo"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Jueves",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      }
+    ]
+  },
+  {
+    "materia": "Almacenamiento y Recuperación de la Información / Base de Datos",
+    "turno": "Única",
+    "profesores": [
+      "Platzer, Emilio"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Miércoles",
+        "hora_inicio": "19:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Viernes",
+        "hora_inicio": "17:00",
+        "hora_fin": "22:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Miércoles",
+        "hora_inicio": "17:00",
+        "hora_fin": "19:00"
+      }
+    ]
+  },
+  {
+    "materia": "Seminario sobre Tecnología y Sociedad",
+    "turno": "Única",
+    "profesores": [
+      "Schapachnik, Fernando Pablo"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "20:00"
+      }
+    ]
+  },
+  {
+    "materia": "Introducción a la Investigación Operativa y Optimización / Investigación Operativa",
+    "turno": "Única",
+    "profesores": [
+      "Méndez Díaz, Isabel",
+      "Zabala, Paula Lorena"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Martes",
+        "hora_inicio": "09:00",
+        "hora_fin": "13:00"
+      },
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Viernes",
+        "hora_inicio": "09:00",
+        "hora_fin": "13:00"
+      }
+    ]
+  },
+  {
+    "materia": "Bases de Programación y Pensamiento Computacional / Taller de Informática / Pensamiento Computacional",
+    "turno": "Mañana",
+    "profesores": [
+      "Cossio Mercado, Christian Gustavo"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Miércoles",
+        "hora_inicio": "11:00",
+        "hora_fin": "13:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Viernes",
+        "hora_inicio": "12:00",
+        "hora_fin": "16:00"
+      }
+    ]
+  },
+  {
+    "materia": "Bases de Programación y Pensamiento Computacional / Taller de Informática / Pensamiento Computacional",
+    "turno": "Tarde",
+    "profesores": [
+      "Cossio Mercado, Christian Gustavo"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Miércoles",
+        "hora_inicio": "14:00",
+        "hora_fin": "16:00"
+      },
+      {
+        "tipo": "Práctica con PC",
+        "dia": "Viernes",
+        "hora_inicio": "12:00",
+        "hora_fin": "16:00"
+      }
+    ]
+  },
+  {
+    "materia": "Aprendizaje Automático I – 2025 / Introducción al Aprendizaje Automático I",
+    "turno": "Única",
+    "profesores": [
+      "Brusco, Pablo"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "21:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Jueves",
+        "hora_inicio": "17:00",
+        "hora_fin": "21:00"
+      }
+    ]
+  },
+  {
+    "materia": "Aprendizaje Automático II – 2025 / Introducción al Aprendizaje Automático II",
+    "turno": "Única",
+    "profesores": [
+      "Brusco, Pablo"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórica",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "21:00"
+      },
+      {
+        "tipo": "Práctica",
+        "dia": "Jueves",
+        "hora_inicio": "17:00",
+        "hora_fin": "21:00"
+      }
+    ]
+  },
+  {
+    "materia": "Seminario sobre Computación, Ciencia y Sociedad en Argentina",
+    "turno": "Única",
+    "profesores": [
+      "Schapachnik, Fernando Pablo"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Martes",
+        "hora_inicio": "17:00",
+        "hora_fin": "20:00"
+      }
+    ]
+  },
+  {
+    "materia": "Criptografía Moderna",
+    "turno": "VISIT2024 / Introducción a la criptografía moderna",
+    "profesores": [
+      "Garay, Juan"
+    ],
+    "horarios": []
+  },
+  {
+    "materia": "Introducción a las Pruebas de Conocimiento Cero",
+    "turno": "VISIT2026",
+    "profesores": [
+      "Giambiagi Ferrari, Carlo"
+    ],
+    "horarios": []
+  },
+  {
+    "materia": "Evaluación de sistemas de aprendizaje automático / Temas Avanzados sobre Evaluación de Sistemas de Aprendizaje Automático",
+    "turno": null,
+    "profesores": [
+      "Ferrer, Luciana"
+    ],
+    "horarios": []
+  },
+  {
+    "materia": "Infraestructura Tecnológica: Fundamentos, Gestión y Automatización / Tópicos de Infraestructura Tecnológica",
+    "turno": null,
+    "profesores": [
+      "Dunayevich, Julián"
+    ],
+    "horarios": []
+  },
+  {
+    "materia": "Introducción a los Lenguajes de Programación Probabilísticos",
+    "turno": null,
+    "profesores": [
+      "Burroni, Javier"
+    ],
+    "horarios": []
+  },
+  {
+    "materia": "Lógicas Modales / Curso de Posgrado de Lógicas Modales",
+    "turno": null,
+    "profesores": [
+      "Rodriguez, Ricardo Oscar"
+    ],
+    "horarios": []
+  },
+  {
+    "materia": "Monitoreo de Sistemas Distribuidos",
+    "turno": null,
+    "profesores": [
+      "Xifra, Jorge"
+    ],
+    "horarios": []
+  },
+  {
+    "materia": "Procesamiento Avanzado de Señales",
+    "turno": "2024 / Procesamiento de Series Temporales",
+    "profesores": [
+      "Risk, Marcelo"
+    ],
+    "horarios": []
+  },
+  {
+    "materia": "Seminarios de Inteligencia Artificial",
+    "turno": null,
+    "profesores": [
+      "Fernandez Slezak, Diego"
+    ],
+    "horarios": []
+  },
+  {
+    "materia": "Verificación Formal en Sistemas de Hardware a Gran Escala",
+    "turno": null,
+    "profesores": [
+      "Cerrutti, Mariano"
+    ],
+    "horarios": []
+  },
+  {
+    "materia": "Procesamiento de Lenguaje Natural",
+    "turno": null,
+    "profesores": [
+      "Lombardi, Leandro"
+    ],
+    "horarios": [
+      {
+        "tipo": "Teórico-Práctica",
+        "dia": "Miércoles",
+        "hora_inicio": "9:30",
+        "hora_fin": "13:30"
+      }
+    ]
+  },
+  {
+    "materia": "Computación y Práctica Social",
+    "turno": null,
+    "profesores": [
+      "Cossio Mercado, Christian Gustavo"
+    ],
+    "horarios": []
+  },
+  {
+    "materia": "Fundamentos de Artificial General Intelligence Safety / Fundamentos Modernos de Artificial General Intelligence Safety",
+    "turno": null,
+    "profesores": [
+      "Abriola, Sergio"
+    ],
+    "horarios": []
+  },
+  {
+    "materia": "Teoría de Juegos (grado)/Tópicos de Teoría de Juegos (doctorado)",
+    "turno": null,
+    "profesores": [
+      "Arbiser, Ariel"
+    ],
+    "horarios": []
+  },
+  {
+    "materia": "Procesamiento de Imágenes I / Fundamentos de Procesamiento de Imágenes",
+    "turno": null,
+    "profesores": [
+      "Buemi, María Elena"
+    ],
+    "horarios": []
+  },
+  {
+    "materia": "Elementos de Reconocimiento Visual",
+    "turno": "2025 / Bases para el Reconocimiento Visual",
+    "profesores": [
+      "Buemi, María Elena"
+    ],
+    "horarios": []
+  },
+  {
+    "materia": "Seminario sobre Algoritmos de Análisis de Secuencias Biológicas/Tópicos sobre Algoritmos de Análisis de Secuencias Biológicas",
+    "turno": null,
+    "profesores": [
+      "Turjanski, Pablo"
+    ],
+    "horarios": []
+  },
+  {
+    "materia": "Temas de NLP / NLP Aplicado",
+    "turno": null,
+    "profesores": [
+      "Cotik, Viviana"
+    ],
+    "horarios": []
+  }
+]
