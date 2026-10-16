@@ -1,1 +1,6 @@
 JSON/
+pipeline/work/
+pipeline/backups/2*/
+rag/modelos/
+rag/export/
+__pycache__/

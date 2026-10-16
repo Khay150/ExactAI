@@ -1,0 +1,3 @@
+pydantic-ai-slim[groq,openai]>=1.0
+psycopg2-binary>=2.9
+fastembed>=0.9

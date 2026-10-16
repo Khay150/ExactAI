@@ -9,12 +9,17 @@
 Genera ademas JSON/reporte_merge_horarios.json con lo que se descarto y avisos.
 """
 import json
+import os
 import re
 import shutil
 import unicodedata
 from collections import defaultdict
 
-ID_CUATRI = "2026_1c"
+ID_CUATRI = os.environ.get("EXACTAI_CUATRI", "2026_1c")
+F_COM = "comisiones.json"
+F_DM = f"dm_{ID_CUATRI}.json"
+F_DC = f"materias_dc_{ID_CUATRI}.json"
+F_OUT = f"JSON/horarios_{ID_CUATRI}.json"
 
 
 def norm(s):
@@ -115,20 +120,20 @@ def replace_and_filter(data, name_map, source_label):
     return kept
 
 
-com_raw = load("comisiones.json")
-dm_raw = load("dm_2026_1c.json")
-dc_raw = load("materias_dc_2026_1c.json")
+com_raw = load(F_COM)
+dm_raw = load(F_DM)
+dc_raw = load(F_DC)
 
 com_clean = replace_and_filter(com_raw, gs_map, "comisiones.json")
-dm_clean = replace_and_filter(dm_raw, dm_map, "dm_2026_1c.json")
-dc_clean = replace_and_filter(dc_raw, dc_map, "materias_dc_2026_1c.json")
+dm_clean = replace_and_filter(dm_raw, dm_map, F_DM)
+dc_clean = replace_and_filter(dc_raw, dc_map, F_DC)
 
-for fname in ("comisiones.json", "dm_2026_1c.json", "materias_dc_2026_1c.json"):
+for fname in (F_COM, F_DM, F_DC):
     shutil.copy(fname, fname + ".bak")
 
-save("comisiones.json", com_clean)
-save("dm_2026_1c.json", dm_clean)
-save("materias_dc_2026_1c.json", dc_clean)
+save(F_COM, com_clean)
+save(F_DM, dm_clean)
+save(F_DC, dc_clean)
 
 # ---------------------------------------------------------------------------
 # Armar "bloques" de horario+docentes a partir de dm (por tipo TPn/PC/etc)
@@ -365,7 +370,7 @@ for key, rows in aula_lookup.items():
                 f"aula={r['aula']} pabellon={r['pabellon']}"
             )
 
-save("JSON/horarios_2026_1c.json", comisiones_out)
+save(F_OUT, comisiones_out)
 
 report["warnings"] = warnings
 report["n_comisiones"] = len(comisiones_out)
@@ -374,6 +379,6 @@ save("JSON/reporte_merge_horarios.json", report)
 print("OK")
 print("comisiones generadas:", len(comisiones_out))
 print("descartadas de comisiones.json:", len(report["dropped"]["comisiones.json"]))
-print("descartadas de dm_2026_1c.json:", len(report["dropped"]["dm_2026_1c.json"]))
-print("descartadas de materias_dc_2026_1c.json:", len(report["dropped"]["materias_dc_2026_1c.json"]))
+print(f"descartadas de {F_DM}:", len(report["dropped"][F_DM]))
+print(f"descartadas de {F_DC}:", len(report["dropped"][F_DC]))
 print("avisos:", len(warnings))

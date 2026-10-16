@@ -1,0 +1,74 @@
+{
+  "cuatrimestres": [
+    {
+      "id_cuatri": "2025_verano_vac",
+      "anio": 2025,
+      "periodo": "verano",
+      "tipo": "vacaciones",
+      "orden": 1
+    },
+    {
+      "id_cuatri": "2026_verano_int",
+      "anio": 2026,
+      "periodo": "verano",
+      "tipo": "intensivo",
+      "orden": 2
+    },
+    {
+      "id_cuatri": "2026_1c",
+      "anio": 2026,
+      "periodo": 1,
+      "tipo": "cuatrimestre",
+      "orden": 3
+    },
+    {
+      "id_cuatri": "2026_1b",
+      "anio": 2026,
+      "periodo": 1,
+      "tipo": "bimestre",
+      "orden": 4
+    },
+    {
+      "id_cuatri": "2026_2b",
+      "anio": 2026,
+      "periodo": 2,
+      "tipo": "bimestre",
+      "orden": 5
+    },
+    {
+      "id_cuatri": "2026_inv",
+      "anio": 2026,
+      "periodo": "invierno",
+      "tipo": "intensivo",
+      "orden": 6
+    },
+    {
+      "id_cuatri": "2026_2c",
+      "anio": 2026,
+      "periodo": 2,
+      "tipo": "cuatrimestre",
+      "orden": 7
+    },
+    {
+      "id_cuatri": "2026_3b",
+      "anio": 2026,
+      "periodo": 3,
+      "tipo": "bimestre",
+      "orden": 8
+    },
+    {
+      "id_cuatri": "2026_4b",
+      "anio": 2026,
+      "periodo": 4,
+      "tipo": "bimestre",
+      "orden": 9
+    },
+    {
+      "id_cuatri": "2026_verano_vac",
+      "anio": 2026,
+      "periodo": "verano",
+      "tipo": "vacaciones",
+      "orden": 10
+    }
+  ]
+}

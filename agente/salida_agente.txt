@@ -1,0 +1,147 @@
+
+======================================================================
+¿ ¿A qué hora y en qué aula se cursa Física 4? ?
+  [tool] info_comision({"materia":"Física 4"})
+
+  **Física IV (Física 4) – Cuatrimestre 2026 2 c**
+
+| Comisión | Día(s) | Horario | Aula (pabellón) |
+|----------|--------|----------|-----------------|
+| **f_4_ta** (turno TA) | Viernes | 17:00 – 19:00 | Aula 12 (Pabellón 2) |
+| | | 19:00 – 22:00 | Aula 9 (Pabellón 2) |
+| **f_4_tb** (turno TB) | Miércoles | 09:00 – 14:00 | Aula 1303 (Pabellón 0) |
+| | Viernes | 09:00 – 14:00 | Aula 1303 (Pabellón 0) |
+| **f_4_unica** (única) | Miércoles | 17:00 – 22:00 | Aula 4 (Pabellón 2) |
+
+Así que, según la comisión que elijas, la materia se dicta en los horarios y aulas indicados arriba. ¡Éxitos con la cursada!
+
+======================================================================
+¿ ¿Quién da álgebra a la noche? ?
+C:\Users\franv\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.1) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+  [tool] buscar_info({"consulta":"álgebra turno noche","tipos":["comision"]})
+
+  **Álgebra a la noche (cuatrimestre 2 de 2026)**  
+
+| Comisión | Docentes (profesor/a titular y ayudantes) |
+|----------|--------------------------------------------|
+| **Algebra Lineal – alg_lin_noche** | Prof. Martín Mereb; JTP Sebastián Freyre; Ay‑1 Dante Cicchetti; Ay‑2 Gonzalo Carraux; Ay‑2 Juan Martín Perez Garber |
+| **Álgebra Lineal Computacional – alc_noche_tp4** | JTP Edwin Pin; JTP Felipe Negreira; Ay‑1 Leopoldo Lerena |
+| **Álgebra I – algebra_1_noche** | Prof. Mariano Suárez Álvarez; JTP Georgina Giacobbe; Ay‑1 Florencia Noceti; Ay‑2 Fidel Nicolás Urrutia; Ay‑2 Luciano Cassini; Ay‑2 Nicolás Villagran Dos Santos; Ay‑2 Pedro Nicolás Peña |
+| **Álgebra Lineal Computacional – alc_noche_tp3** | Prof. María Lorena Stockdale; Ay‑1 Juan Ignacio Gargano; Ay‑2 Mateo Gómez Damico |
+
+Todas estas comisiones se dictan en el turno “noche” (martes y viernes de 17 h/19 h a 22 h). Si te interesa alguna comisión en particular o necesitás horarios y aulas, avisame.
+
+======================================================================
+¿ ¿Cuándo me puedo anotar a las materias del próximo cuatrimestre? ?
+  [tool] proximas_fechas({"desde":null,"incluir_pasadas":false,"limite":20,"tipo":"Inscripción"})
+
+  En el calendario académico aparecen únicamente los llamados de inscripción al **Turno de Diciembre** (1.º, 2.º y 3.º llamado), que corresponden a la inscripción a los **exámenes finales**, no a la inscripción de materias para el próximo cuatrimestre.
+
+Por el momento **no está publicada** la fecha de inscripción a las materias (cursada). Cuando la facultad la difunda aparecerá como un evento con “inscripción” y la palabra “materias” o “cursada” en el título.
+
+Así que, por ahora, deberás estar atento a los comunicados oficiales de la FCEN; en cuanto se publiquen las fechas de inscripción a materias te lo podré indicar.
+
+======================================================================
+¿ ¿Cuándo son los finales de diciembre? ?
+  [tool] proximas_fechas({"desde":null,"limite":20,"tipo":"Exámenes"})
+
+  Los finales de diciembre se dividen en tres llamados:
+
+| Llamado | Fechas |
+|---|---|
+| **1.º llamado** | del **7 al 11 de diciembre** |
+| **2.º llamado** | del **14 al 18 de diciembre** |
+| **3.º llamado** | del **21 al 23 de diciembre** |
+
+Estos períodos corresponden al turno de diciembre del cuatrimestre de verano. Si necesitás más información (por ejemplo, inscripción a los finales o horarios de alguna materia), avisame.
+
+======================================================================
+¿ Quiero cursar Análisis II y Física 4, ¿se pisan los horarios? ?
+  [tool] buscar_materia({"nombre_o_alias":"Análisis II"})
+  [tool] buscar_materia({"nombre_o_alias":"Física 4"})
+  [tool] chequear_solapamiento({"ids_comision":[481,482,484,483,563,549,553]})
+
+  Sí, los horarios de **ANÁLISIS II** y **Física IV** se pisan en varias combinaciones de comisiones.
+
+| Comisión de Análisis II | Comisión de Física IV | Día y horario del choque |
+|--------------------------|-----------------------|---------------------------|
+| analisis_2_manana_tp1 ( 09:00‑14:00 ) | f_4_tb ( 09:00‑14:00 ) | Miércoles (y también Lunes) |
+| analisis_2_manana_tp2 ( 09:00‑14:00 ) | f_4_tb ( 09:00‑14:00 ) | Miércoles (y también Lunes) |
+| analisis_2_tarde ( 14:00‑19:00 ) | f_4_unica ( 17:00‑22:00 ) | Miércoles (solapamiento 17:00‑19:00) |
+| analisis_2_noche ( 17:00‑22:00 ) | f_4_unica ( 17:00‑22:00 ) | Miércoles (solapamiento completo) |
+
+En cambio, hay combinaciones que **no se solapan**:
+
+- **Análisis II noche** (17:00‑22:00, miércoles) + **Física IV TA** (turno “TA”, sin bloque horario indicado en la data).  
+- **Análisis II tarde** (14:00‑19:00, miércoles) + **Física IV TA**.  
+- **Análisis II mañana** (TP1 o TP2) + **Física IV TA**.
+
+Así que, si te interesa cursar ambas materias, te conviene elegir una comisión de Análisis II que sea **tarde o noche** y la comisión **TA** de Física IV, o bien una comisión de Análisis II en la mañana con la comisión **TA** de Física IV. Con esas combinaciones no habría solapamiento de horarios.
+
+======================================================================
+¿ Armame un horario con Análisis II, Álgebra I y Física 4 sin cursar los viernes ?
+  [tool] armar_horario({"materias":["Análisis II","Álgebra I","Física 4"],"max_resultados":3,"preferencias":{"evitar_dias":["viernes"]}})
+
+  Aquí tienes las tres mejores combinaciones que pude armar con **Análisis II**, **Álgebra I** y **Física IV**.  
+
+Todas cumplen con que no haya solapamientos, pero **no pudieron evitar el viernes** (la única comisión disponible de Álgebra I se dicta ese día). Por eso cada opción tiene una penalidad = 2 (una penalidad por cada día = viernes que no se pudo eludir).
+
+| Opción | Penalidad | Materia – Comisión – Turno | Horario |
+|--------|-----------|---------------------------|---------|
+| 1 | 2 | **Análisis II** – `analisis_2_manana_tp1` (mañana) <br>**Álgebra I** – `algebra_1_manana_tp1` (mañana) <br>**Física IV** – `f_4_unica` (única) | Lunes 09:00‑14:00 (Análisis II)<br>Miércoles 09:00‑14:00 (Análisis II)<br>Martes 09:00‑14:00 (Álgebra I)<br>Viernes 09:00‑14:00 (Álgebra I)<br>Miércoles 17:00‑22:00 (Física IV) |
+| 2 | 2 | **Análisis II** – `analisis_2_manana_tp1` (mañana) <br>**Álgebra I** – `algebra_1_manana_tp2` (mañana) <br>**Física IV** – `f_4_unica` (única) | Lunes 09:00‑14:00 (Análisis II)<br>Miércoles 09:00‑14:00 (Análisis II)<br>Martes 09:00‑14:00 (Álgebra I)<br>Viernes 09:00‑14:00 (Álgebra I)<br>Miércoles 17:00‑22:00 (Física IV) |
+| 3 | 2 | **Análisis II** – `analisis_2_manana_tp1` (mañana) <br>**Álgebra I** – `algebra_1_manana_tp3` (mañana) <br>**Física IV** – `f_4_unica` (única) | Lunes 09:00‑14:00 (Análisis II)<br>Miércoles 09:00‑14:00 (Análisis II)<br>Martes 08:00‑13:00 (Álgebra I)<br>Viernes 08:00‑13:00 (Álgebra I)<br>Miércoles 17:00‑22:00 (Física IV) |
+
+**Resumen:** La única forma de cursar esas tres materias sin que se solapen es tomando la comisión de Álgebra I que se dicta los viernes; por eso ninguna combinación logra eliminar totalmente ese día. Si tenés flexibilidad para cambiar de turno o aceptar otro día, avísame y busco otras opciones.
+
+======================================================================
+¿ ¿Qué necesito aprobar para cursar Análisis II? Ya aprobé Análisis I. ?
+  [tool] correlativas_faltantes({"materia":"Análisis II","materias_aprobadas":["Análisis I"]})
+
+  Para cursar **ANÁLISIS II** (ANÁLISIS MATEMÁTICO II) la única correlativa que se exige es haber aprobado **Análisis I** (o “Matemática I” según la carrera).  
+
+Como ya aprobaste Análisis I, cumplís con los requisitos y podés inscribirte. ¡Éxitos!
+
+======================================================================
+¿ ¿Qué materias hay en segundo año de Ciencias de Datos? ?
+   (límite de uso de Groq; reintento en 10s)
+  [tool] buscar_info({"consulta":"segundo año Ciencias de Datos materias","tipos":["plan"]})
+
+  En el **segundo año** (2.º año) de la Licenciatura en **Ciencias de Datos** se cursan las siguientes materias:
+
+**1.º cuatrimestre**
+- Álgebra I  
+- Algoritmos y Estructuras de Datos I  
+
+**2.º cuatrimestre**
+- Análisis I  
+- Algoritmos y Estructuras de Datos II  
+
+Estas son todas las asignaturas obligatorias que forman el plan de estudio de 2.º año.
+
+======================================================================
+¿ ¿Cuál es el mail de Merzbacher? ?
+  [tool] buscar_info({"consulta":"Merzbacher email","tipos":["docente"]})
+
+  El correo electrónico de Mariano Merzbacher es **mmerzbacher@gmail.com**.
+
+======================================================================
+¿ ¿Cuántas horas tiene Química General? ?
+  [tool] buscar_materia({"nombre_o_alias":"Química General"})
+
+  Hay varias materias con “Química General” en el cuatrimestre 2026 2 c. Cada una tiene una carga horaria distinta:
+
+| Código | Nombre completo | Carga horaria (horas) |
+|--------|-------------------------------|------------------------|
+| **quimi_gen** | Química General e Inorgánica I | **176 h** |
+| **quimi_gen_alim** | Química General | **168 h** |
+| **quimi_gen_atm** | Química General e Inorgánica para Cs. de la Atmósfera | **160 h** |
+| **quimi_gen_paleo** | Química General e Inorgánica para Paleontólogos | **192 h** |
+
+¿A cuál de esas materias te referís exactamente? (Por ejemplo, la de la carrera de Ingeniería Química, la de Ciencias de la Atmósfera, etc.)
+
+======================================================================
+¿ ¿Cuál es la capital de Francia? ?
+
+  Lo siento, solo puedo ayudar con consultas relacionadas con la Facultad de Ciencias Exactas y Naturales (FCEN) de la UBA.

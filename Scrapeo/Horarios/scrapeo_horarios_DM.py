@@ -1,10 +1,17 @@
 import json
+import os
 import re
 import requests
 from bs4 import BeautifulSoup
 
 
-URL = "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2026&cuatrimestre=1"
+# El pipeline pisa estos valores con variables de entorno (ver pipeline/pipeline.py);
+# sin ellas, el script se comporta exactamente como antes.
+CUATRI = os.environ.get("EXACTAI_CUATRI", "2026_1c")
+URL = os.environ.get(
+    "EXACTAI_DM_URL",
+    "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2026&cuatrimestre=1",
+)
 
 
 # --------------------------------------------------
@@ -122,7 +129,9 @@ def parsear_horario(texto):
 # Obtener tablas válidas
 # --------------------------------------------------
 
-html = requests.get(URL).text
+resp = requests.get(URL, timeout=60)
+resp.raise_for_status()
+html = resp.text
 soup = BeautifulSoup(html, "html.parser")
 
 tablas = soup.find_all("table", class_="horarios")
@@ -347,7 +356,7 @@ for tabla in tablas:
 # --------------------------------------------------
 
 with open(
-    "dm_2026_1c.json",
+    f"dm_{CUATRI}.json",
     "w",
     encoding="utf-8"
 ) as f:

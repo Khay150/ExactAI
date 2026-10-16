@@ -6,7 +6,7 @@ Postgres real. Corre casos concretos con datos reales del cuatrimestre
 2026_1c e imprime el resultado, para revisar a ojo que cada tool devuelve
 lo esperado antes de conectarla al agente.
 
-Uso (desde la carpeta "Modelo BD", con tu Postgres corriendo):
+Uso (desde la carpeta "agente", con tu Postgres corriendo):
     python probar_herramientas.py
 """
 import json

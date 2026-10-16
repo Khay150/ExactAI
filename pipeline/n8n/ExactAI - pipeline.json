@@ -1,0 +1,473 @@
+{
+  "name": "ExactAI - pipeline",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -288,
+        -16
+      ],
+      "id": "d843580e-52a2-4e2f-86e5-fa90d3a802d5",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "56acf2b6-3e25-4f78-9a5c-1d82d390d4a9",
+              "name": "cuatri",
+              "value": "={{ $now.month <= 6 ? $now.year + '_1c' : $now.year + '_2c' }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.5,
+      "position": [
+        -64,
+        -16
+      ],
+      "id": "8cc552cd-5e19-49c9-9e16-9a92e16011a8",
+      "name": "Parámetros"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://runner:8000/run",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "=  {\"step\":\"descargar-csv\",\"cuatri\":\"{{ $('Parámetros').first().json.cuatri }}\"}",
+        "options": {
+          "timeout": 1800000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        160,
+        -16
+      ],
+      "id": "8e96305f-f0af-470e-8538-bbcac99823f1",
+      "name": "Descargar planillas"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://runner:8000/run",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "=  {\"step\":\"scrapear-horarios\",\"cuatri\":\"{{ $('Parámetros').first().json.cuatri }}\"}",
+        "options": {
+          "timeout": 1800000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        352,
+        -16
+      ],
+      "id": "3fa89695-8603-42bd-bf55-729981529d3c",
+      "name": "Scrapear horarios"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://runner:8000/run",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "=  {\"step\":\"scrapear-eventos\",\"cuatri\":\"{{ $('Parámetros').first().json.cuatri }}\"}",
+        "options": {
+          "timeout": 1800000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        528,
+        -16
+      ],
+      "id": "e893fec0-ff45-4826-8e5b-f823bc98e68f",
+      "name": "Scrapear eventos"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://runner:8000/run",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "=  {\"step\":\"transformar\",\"cuatri\":\"{{ $('Parámetros').first().json.cuatri }}\"}",
+        "options": {
+          "timeout": 1800000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        736,
+        -16
+      ],
+      "id": "afef9f9b-9b4d-45ee-9ede-517ce97e19bc",
+      "name": "Transformar datos"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://runner:8000/run",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "=  {\"step\":\"auditar\",\"cuatri\":\"{{ $('Parámetros').first().json.cuatri }}\"}",
+        "options": {
+          "timeout": 1800000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        944,
+        -16
+      ],
+      "id": "d89696fa-4eeb-4cf8-8278-8c1e1feaf728",
+      "name": "Auditar"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://runner:8000/run",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "=  {\"step\":\"preview\",\"cuatri\":\"{{ $('Parámetros').first().json.cuatri }}\"}",
+        "options": {
+          "timeout": 1800000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        1152,
+        -16
+      ],
+      "id": "0a303402-85f9-4fc4-b681-2122a154c1c3",
+      "name": "Simular carga (preview)"
+    },
+    {
+      "parameters": {
+        "resume": "form",
+        "formTitle": "Aprobar carga de datos",
+        "formDescription": "={{ $('Simular carga (preview)').first().json.stdout }}",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Decisión",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "Aprobar"
+                  },
+                  {
+                    "option": "Rechazar"
+                  }
+                ]
+              },
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        1600,
+        -16
+      ],
+      "id": "723ee3e2-eeea-436a-92c4-8dde87d3b2a7",
+      "name": "Esperar aprobación",
+      "webhookId": "7eec7654-49eb-4476-a9fe-7a76d38e3f58"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "e753c089-00b8-4f9f-9873-eaf7667d4795",
+              "leftValue": "={{ $json['Decisión'] }}",
+              "rightValue": "Aprobar",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        1760,
+        -16
+      ],
+      "id": "5257bbdc-bf85-445d-adbc-f7d875dcbcf9",
+      "name": "¿Aprobó?"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://runner:8000/run",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "=  {\"step\":\"cargar\",\"cuatri\":\"{{ $('Parámetros').first().json.cuatri }}\"}",
+        "options": {
+          "timeout": 1800000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        2000,
+        -32
+      ],
+      "id": "c629b3f9-0278-4919-98a1-d164a3cde378",
+      "name": "Cargar a la base"
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 9 10 7 *"
+            },
+            {
+              "field": "cronExpression",
+              "expression": "0 9 17 3 *"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        -288,
+        -160
+      ],
+      "id": "72b5efa9-e0bb-472b-a3f5-edfa81f54beb",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://ntfy.sh/",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "=     {\"topic\":\"exactai-fran-k7x2q9\",\"title\":\"eXACTai: aprobá la carga\",\"message\":\"Datos de {{ $('Parámetros').first().json.cuatri }} listos para cargar. Abrí el formulario en tu PC: {{ $execution.resumeFormUrl }}\"}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        1376,
+        -16
+      ],
+      "id": "daa18068-5bb4-4952-99c6-d4b5ef014d1b",
+      "name": "Avisar: esperando aprobación"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://runner:8000/run",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\"step\":\"indexar-rag\",\"cuatri\":\"{{ $('Parámetros').first().json.cuatri }}\"}",
+        "options": {
+          "timeout": 1800000
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        2208,
+        -32
+      ],
+      "id": "649a1e7b-7977-4f06-8d5c-7779bc956a31",
+      "name": "Indexar RAG"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Parámetros",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parámetros": {
+      "main": [
+        [
+          {
+            "node": "Descargar planillas",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Descargar planillas": {
+      "main": [
+        [
+          {
+            "node": "Scrapear horarios",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Scrapear horarios": {
+      "main": [
+        [
+          {
+            "node": "Scrapear eventos",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Scrapear eventos": {
+      "main": [
+        [
+          {
+            "node": "Transformar datos",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Transformar datos": {
+      "main": [
+        [
+          {
+            "node": "Auditar",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Auditar": {
+      "main": [
+        [
+          {
+            "node": "Simular carga (preview)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simular carga (preview)": {
+      "main": [
+        [
+          {
+            "node": "Avisar: esperando aprobación",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Esperar aprobación": {
+      "main": [
+        [
+          {
+            "node": "¿Aprobó?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "¿Aprobó?": {
+      "main": [
+        [
+          {
+            "node": "Cargar a la base",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Parámetros",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Avisar: esperando aprobación": {
+      "main": [
+        [
+          {
+            "node": "Esperar aprobación",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Cargar a la base": {
+      "main": [
+        [
+          {
+            "node": "Indexar RAG",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "timeSavedMode": "fixed",
+    "errorWorkflow": "Aj6PY3Fz3gJ9RHMb",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false
+  },
+  "versionId": "002bfce1-8a31-4bee-943d-b2fb81d8d64b",
+  "meta": {
+    "instanceId": "af826156c9d5ce41c6a50dbb00c3e3de800804dfd10212168ab91ed09a3b8461"
+  },
+  "nodeGroups": [],
+  "id": "cI6OoZCHvJIil6Wf",
+  "tags": []
+}

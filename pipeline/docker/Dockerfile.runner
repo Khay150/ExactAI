@@ -1,0 +1,4 @@
+FROM python:3.12-slim
+RUN pip install --no-cache-dir pandas requests beautifulsoup4 psycopg2-binary fastembed
+ENV EXACTAI_HOME=/data/exactai
+CMD ["python", "/data/exactai/pipeline/docker/runner.py"]

@@ -46,7 +46,7 @@ DB_NAME = "postgres"
 DB_USER = "postgres"
 DB_PASSWORD = "admin"
 
-# Carpeta JSON/, relativa a este archivo (Modelo BD/herramientas_agente.py
+# Carpeta JSON/, relativa a este archivo (agente/herramientas_agente.py
 # -> ../JSON). Se puede pisar pasando data_dir a las funciones que lo usan.
 DATA_DIR = Path(__file__).resolve().parent.parent / "JSON"
 
@@ -450,16 +450,17 @@ def _penalidad(bloques, preferencias):
         return 0
     pen = 0
     turno_pref = preferencias.get("turno")
-    evitar_dias = set(preferencias.get("evitar_dias") or [])
+    evitar_dias = {norm(d) for d in (preferencias.get("evitar_dias") or [])}   # "viernes" == "Viernes"
+    turno_pref_n = norm(turno_pref) if turno_pref else None
     no_antes = preferencias.get("no_antes_de")
     no_despues = preferencias.get("no_despues_de")
     no_antes_t = _hhmm(no_antes) if no_antes else None
     no_despues_t = _hhmm(no_despues) if no_despues else None
 
     for b in bloques:
-        if turno_pref and b["turno"] and b["turno"] != turno_pref:
+        if turno_pref_n and b["turno"] and norm(b["turno"]) != turno_pref_n:
             pen += 1
-        if b["dia"] in evitar_dias:
+        if norm(b["dia"]) in evitar_dias:
             pen += 2
         hi = _hhmm(b["hora_inicio"])
         hf = _hhmm(b["hora_fin"])
@@ -538,7 +539,8 @@ def armar_horario(materias, id_cuatri=None, preferencias=None, max_resultados=5,
             "penalidad": _penalidad(todos_bloques, preferencias),
             "comisiones": [
                 {"id_materia": o["id_materia"], "materia": o["materia"],
-                 "id_comision": o["id_comision"], "comision": o["comision"], "turno": o["turno"]}
+                 "id_comision": o["id_comision"], "comision": o["comision"], "turno": o["turno"],
+                 "horario": [f'{b["dia"]} {b["hora_inicio"]}-{b["hora_fin"]}' for b in o["bloques"]]}
                 for o in combo
             ],
         })

@@ -1,0 +1,81 @@
+C:\Users\franv\AppData\Local\Programs\Python\Python310\lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.2.1) or chardet (7.4.3)/charset_normalizer (3.3.2) doesn't match a supported version!
+  warnings.warn(
+Modelo de embeddings: minishlab/potion-multilingual-128M (256 dimensiones)
+
+=== 1) Sincronizando el índice ===
+Documentos generados desde la base: 1413 (carrera: 12, comision: 254, docente: 810, evento: 80, materia: 210, plan: 47)
+
+=== Plan ===
+Nuevos: 0 | Con texto cambiado: 0 | Sin embedding al día: 0 | Solo metadata: 0 | Sin cambios: 1413 | A borrar: 0
+Embeddings a calcular: 0 de 1413
+
+OK. Índice actual: 1413 documentos (carrera: 12, comision: 254, docente: 810, evento: 80, materia: 210, plan: 47)
+
+=== 2) Sincronizando de nuevo (no debería calcular ningún embedding) ===
+Documentos generados desde la base: 1413 (carrera: 12, comision: 254, docente: 810, evento: 80, materia: 210, plan: 47)
+
+=== Plan ===
+Nuevos: 0 | Con texto cambiado: 0 | Sin embedding al día: 0 | Solo metadata: 0 | Sin cambios: 1413 | A borrar: 0
+Embeddings a calcular: 0 de 1413
+
+OK. Índice actual: 1413 documentos (carrera: 12, comision: 254, docente: 810, evento: 80, materia: 210, plan: 47)
+
+✔ Incremental OK: la segunda corrida no recalculó nada.
+
+=== 3) Búsquedas de ejemplo ===
+(dist = distancia coseno semántica: 0 = idéntico; sirve para calibrar distancia_max)
+
+¿ quien da algebra a la noche ?
+  1. [comision] Álgebra I — comisión algebra_1_noche (2do cuatrimestre de 2026)   (semantica+palabras, dist=0.519)
+  2. [docente] Docente: Pedro Nicolás Peña   (semantica+palabras, dist=0.4307)
+  3. [docente] Docente: Sebastián Freyre   (semantica+palabras, dist=0.4732)
+
+¿ a que hora cursa analisis 2 ?
+  1. [comision] Análisis II — comisión analisis_2_noche (2do cuatrimestre de 2026)   (semantica+palabras, dist=0.6156)
+  2. [comision] Análisis Complejo — comisión analisis_comp_manana (2do cuatrimestre de 2026)   (semantica+palabras, dist=0.5717)
+  3. [comision] Análisis II — comisión analisis_2_manana_tp2 (2do cuatrimestre de 2026)   (semantica+palabras, dist=0.6225)
+
+¿ en que aula es fisica 4 ?
+  1. [docente] Docente: Soledad Antonel   (semantica, dist=0.6298)
+  2. [materia] Materia: Fisica IV   (palabras, dist=0.5822)
+  3. [comision] Fisica IV — comisión f_4_unica (2do cuatrimestre de 2026)   (palabras, dist=0.4469)
+
+¿ cuando me anoto a las materias ?   [tipos: evento]
+  1. [evento] Inscripción al 1er Llamado del Turno de Diciembre   (semantica+palabras, dist=0.9039)
+  2. [evento] Inscripción al Llamado del Turno de Octubre   (semantica+palabras, dist=0.9134)
+  3. [evento] Inscripción al 2do Llamado del Turno de Diciembre   (semantica+palabras, dist=0.9169)
+
+¿ cuando son los finales de diciembre ?   [tipos: evento]
+  1. [evento] Exámenes del 1er Llamado del Turno de Diciembre   (semantica+palabras, dist=0.6537)
+  2. [evento] Exámenes del 3er Llamado del Turno de Diciembre   (semantica+palabras, dist=0.6721)
+  3. [evento] Inscripción al 2do Llamado del Turno de Diciembre   (semantica+palabras, dist=0.6609)
+
+¿ hasta cuando puedo inscribirme a los examenes ?   [tipos: evento]
+  1. [evento] Inscripción al Llamado del Turno de Octubre   (semantica+palabras, dist=0.8393)
+  2. [evento] Inscripción al 1er Llamado del Turno de Diciembre   (semantica+palabras, dist=0.8331)
+  3. [evento] Exámenes al Llamado del Turno de Octubre   (semantica+palabras, dist=0.8696)
+
+¿ mail de merzbacher ?   [tipos: docente]
+  1. [docente] Docente: Mariano Merzbacher   (semantica+palabras, dist=0.6553)
+  2. [docente] Docente: Mariano Marziali Bermúdez   (semantica, dist=0.6973)
+  3. [docente] Docente: Mercedes Pérez Millán   (semantica, dist=0.7217)
+
+¿ que materias hay en segundo año de ciencias de datos ?
+  1. [plan] Plan de estudios de Licenciatura en Ciencias de Datos — 2º año (segundo año)   (semantica+palabras, dist=0.4607)
+  2. [materia] Materia: Análisis II   (semantica+palabras, dist=0.5334)
+  3. [plan] Plan de estudios de Licenciatura en Ciencias de la Computación — 2º año (segundo año)   (semantica+palabras, dist=0.4865)
+
+¿ cuantas horas tiene la materia de quimica general ?   [tipos: materia]
+  1. [materia] Materia: Química de Materiales   (semantica+palabras, dist=0.3302)
+  2. [materia] Materia: Química Física III   (semantica+palabras, dist=0.3415)
+  3. [materia] Materia: Química Inorgánica I   (semantica+palabras, dist=0.3726)
+
+¿ cuanto dura la carrera de biotecnologia ?
+  1. [carrera] Carrera: Licenciatura en Biotecnologia   (semantica+palabras, dist=0.5111)
+  2. [materia] Materia: Conceptos y Técnicas de Biotecnología   (semantica+palabras, dist=0.5346)
+  3. [materia] Materia: Biotecnología Socioambiental   (semantica+palabras, dist=0.5563)
+
+¿ mate 1 ?
+  1. [comision] Matematica I — comisión mate_1_bio_manana (2do cuatrimestre de 2026)   (semantica+palabras, dist=0.5691)
+  2. [comision] Análisis I — comisión analisis_1_manana_tp2 (2do cuatrimestre de 2026)   (semantica+palabras, dist=0.6022)
+  3. [comision] Matematica I — comisión mate_1_bio_noche (2do cuatrimestre de 2026)   (semantica+palabras, dist=0.6061)

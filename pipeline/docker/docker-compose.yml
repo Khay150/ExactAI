@@ -1,0 +1,32 @@
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: exactai-n8n
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      - GENERIC_TIMEZONE=America/Argentina/Buenos_Aires
+      - TZ=America/Argentina/Buenos_Aires
+    volumes:
+      - n8n_data:/home/node/.n8n
+    depends_on:
+      - runner
+
+  # Corre los scripts de Python. n8n lo llama por HTTP (http://runner:8000).
+  runner:
+    build:
+      context: .
+      dockerfile: Dockerfile.runner
+    container_name: exactai-runner
+    restart: unless-stopped
+    environment:
+      # Postgres corre en tu PC (puerto 5432 publicado por el contenedor mi-postgres)
+      - EXACTAI_DSN=postgresql://postgres:admin@host.docker.internal:5432/postgres
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - "D:/FRAN/proyectos/ExactAI:/data/exactai"
+
+volumes:
+  n8n_data:

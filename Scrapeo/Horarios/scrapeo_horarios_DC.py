@@ -1,3 +1,4 @@
+import os
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -6,7 +7,7 @@ import re
 
 def scrape_materias_dc(url):
 
-    response = requests.get(url)
+    response = requests.get(url, timeout=60)
     response.raise_for_status()
 
     soup = BeautifulSoup(response.text, "html.parser")
@@ -93,12 +94,18 @@ def scrape_materias_dc(url):
 
 if __name__ == "__main__":
 
-    url = "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-primer-cuatrimestre-de-2026/"
+    # El DC publica una nota distinta por cuatrimestre: el pipeline pasa la URL por
+    # EXACTAI_DC_URL (config.json); sin la variable se usa la del 1c 2026.
+    cuatri = os.environ.get("EXACTAI_CUATRI", "2026_1c")
+    url = os.environ.get(
+        "EXACTAI_DC_URL",
+        "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-primer-cuatrimestre-de-2026/",
+    )
 
     datos = scrape_materias_dc(url)
 
     with open(
-        "materias_dc_2026_1c.json",
+        f"materias_dc_{cuatri}.json",
         "w",
         encoding="utf-8"
     ) as f:

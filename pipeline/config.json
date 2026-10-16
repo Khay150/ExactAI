@@ -1,0 +1,17 @@
+{
+  "_ayuda": "cuatri = el que se procesa si no se pasa --cuatri (n8n lo calcula solo segun la fecha). dc_urls = la nota del Depto. de Computacion de CADA cuatrimestre (cambia cada vez, hay que agregarla a mano cuando la publican). El resto casi no cambia.",
+  "cuatri": "2026_2c",
+  "dm_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano={anio}&cuatrimestre={cuatrimestre}",
+  "dc_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-{ordinal}-cuatrimestre-de-{anio}/",
+  "dc_urls": {
+    "2026_1c": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-primer-cuatrimestre-de-2026/"
+  },
+  "hojas_cartelera": {
+    "lunes": "https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vR2AEXmYZyqm5V1t4Eo5A4SJpSEw7htkOIQkVK4k-rHmwL7pdLVtIkAq-3cuMxA8clDVyXbUI4vBkrL/pubhtml/sheet?headers=false&gid=223702133",
+    "martes": "https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vR2AEXmYZyqm5V1t4Eo5A4SJpSEw7htkOIQkVK4k-rHmwL7pdLVtIkAq-3cuMxA8clDVyXbUI4vBkrL/pubhtml/sheet?headers=false&gid=886860040",
+    "miercoles": "https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vR2AEXmYZyqm5V1t4Eo5A4SJpSEw7htkOIQkVK4k-rHmwL7pdLVtIkAq-3cuMxA8clDVyXbUI4vBkrL/pubhtml/sheet?headers=false&gid=1217425647",
+    "jueves": "https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vR2AEXmYZyqm5V1t4Eo5A4SJpSEw7htkOIQkVK4k-rHmwL7pdLVtIkAq-3cuMxA8clDVyXbUI4vBkrL/pubhtml/sheet?headers=false&gid=7031058",
+    "viernes": "https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vR2AEXmYZyqm5V1t4Eo5A4SJpSEw7htkOIQkVK4k-rHmwL7pdLVtIkAq-3cuMxA8clDVyXbUI4vBkrL/pubhtml/sheet?headers=false&gid=2033580263",
+    "sabado": "https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vR2AEXmYZyqm5V1t4Eo5A4SJpSEw7htkOIQkVK4k-rHmwL7pdLVtIkAq-3cuMxA8clDVyXbUI4vBkrL/pubhtml/sheet?headers=false&gid=1067992508"
+  }
+}

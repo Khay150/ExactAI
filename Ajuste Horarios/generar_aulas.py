@@ -7,6 +7,7 @@ el "numero" tal cual (como texto, para no perder aulas que no son numericas)
 y el pabellon.
 """
 import json
+import os
 import re
 import unicodedata
 
@@ -62,8 +63,10 @@ PABELLON_2 = [
     "Aula 102",
     "Aula 103",
     "Aula 104",
+    "Aula 4",
     "Aula 5",
     "Aula 6",
+    "Aula 9",
     "Aula 107",
     "Aula 108",
     "Aula 109",
@@ -162,7 +165,7 @@ from collections import defaultdict
 
 por_pabellon_raw = defaultdict(set)
 try:
-    with open("JSON/horarios_2026_1c.json", encoding="utf-8") as f:
+    with open(f"JSON/horarios_{os.environ.get('EXACTAI_CUATRI', '2026_1c')}.json", encoding="utf-8") as f:
         horarios = json.load(f)
     for c in horarios:
         for h in c.get("horarios", []):
@@ -171,7 +174,7 @@ try:
                     continue
                 por_pabellon_raw[a.get("pabellon")].add(str(a.get("aula")))
 except FileNotFoundError:
-    print("(no encontre JSON/horarios_2026_1c.json, salteo el matching de aliases)")
+    print("(no encontre el JSON de horarios, salteo el matching de aliases)")
 
 # indice normalizado -> aula, por pabellon
 indice = defaultdict(dict)

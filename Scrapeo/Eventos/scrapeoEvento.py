@@ -339,8 +339,81 @@ def procesar_eventos(eventos):
 
 
 # =========================
-# MAIN
+# VERANO + EVENTOS MULTICUATRI
+# (antes: corregir_verano.py y separar_eventos_multicuatri.py, que habia que
+#  correr despues del scrapeo; ahora el JSON sale ya listo para cargar)
 # =========================
+
+ORD = r"(?:1er|1ro|primer|2do|segundo|3er|tercer|4to|cuarto)"
+UNIDAD = r"(?:cuatrimestres?|bimestres?)"
+
+# "1er Cuatrimestre y 1er Bimestre", "2do Cuatrimestre y 3er Bimestre", etc.
+PAR_MULTI = re.compile(
+    rf"(?P<a>{ORD}\.?\s+{UNIDAD})\s+y\s+(?P<b>{ORD}\.?\s+{UNIDAD})",
+    re.IGNORECASE,
+)
+
+
+def _singular(txt):
+    return re.sub(r"(?i)(cuatrimestre|bimestre)s\b", r"\1", txt)
+
+
+def dividir_titulo(titulo):
+    """'Inscripcion a Materias del 1er Cuatrimestre y 1er Bimestre para X'
+    -> ['... del 1er Cuatrimestre para X', '... del 1er Bimestre para X'].
+    Devuelve None si el titulo no tiene ese patron."""
+    m = PAR_MULTI.search(titulo)
+    if not m:
+        return None
+    ini, fin = titulo[:m.start()], titulo[m.end():]
+    return [ini + _singular(m.group("a")) + fin, ini + _singular(m.group("b")) + fin]
+
+
+def resolver_verano(id_cuatri, fecha_ini):
+    """El calendario junta todo el verano en '<anio>_verano'. Se separa en:
+      - <anio>_verano_vac : diciembre (publicacion/inscripcion al curso de verano y
+                            turno de examenes de diciembre: preparan el verano que viene)
+      - <anio>_verano_int : enero-marzo (curso intensivo y turno Febrero-Marzo)"""
+    if not id_cuatri.endswith("_verano"):
+        return id_cuatri
+    mes = int(fecha_ini.split("-")[1])
+    return id_cuatri + ("_vac" if mes == 12 else "_int")
+
+
+def normalizar_eventos(eventos):
+    """Deja a cada evento con UN solo id_cuatri (string, o None si todavia no tiene
+    fecha): parte los eventos que valen para dos periodos y separa el verano."""
+    salida = []
+    for e in eventos:
+        ids = e.get("id_cuatri") or []
+        if isinstance(ids, str):
+            ids = [ids]
+
+        if len(ids) > 1:
+            titulos = dividir_titulo(e["titulo"])
+            if titulos:
+                variantes = []
+                for t in titulos:
+                    v = dict(e)
+                    v["titulo"] = t
+                    v["id_cuatri"] = extraer_ids(v)
+                    variantes.append(v)
+            else:
+                print("⚠️ Evento con varios periodos y titulo sin patron conocido; "
+                      f"se duplica sin cambiar el titulo: {e['titulo']!r} {ids}")
+                variantes = [dict(e, id_cuatri=[i]) for i in sorted(ids)]
+        else:
+            variantes = [dict(e, id_cuatri=ids)]
+
+        for v in variantes:
+            vids = v["id_cuatri"]
+            if len(vids) > 1:
+                print(f"⚠️ No se pudo asignar un unico periodo a {v['titulo']!r}: {vids}")
+            v["id_cuatri"] = resolver_verano(vids[0], v["fecha_ini"]) if vids else None
+            salida.append(v)
+
+    return salida
+
 
 # =========================
 # MAIN
@@ -360,5 +433,9 @@ if __name__ == "__main__":
     nuevos = procesar_eventos(eventos)
 
     print(f"Eventos procesados: {len(nuevos)}")
+
+    nuevos = normalizar_eventos(nuevos)
+
+    print(f"Eventos finales (multicuatri separados, verano resuelto): {len(nuevos)}")
 
     save_json(nuevos)
