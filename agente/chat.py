@@ -45,7 +45,7 @@ def main():
         except Exception as e:      # limite de la API, Ollama apagado, etc.
             print(f"\n⚠ Error: {e}\n")
             continue
-        historial = r.all_messages()
+        historial = agente.compactar_historial(r.all_messages())
         if args.verbose:
             mostrar_tools(r.new_messages())
         print(f"\neXACTai> {r.output}\n")

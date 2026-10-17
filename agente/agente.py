@@ -54,6 +54,9 @@ Tenés dos tipos de herramientas:
 - "¿Se pisan X e Y?" / "¿qué combinaciones sirven?": usá armar_horario([X, Y]), que devuelve las combinaciones
   de comisiones que NO se pisan, con su horario. chequear_solapamiento es para comisiones ya elegidas.
   Nunca afirmes que una combinación no se pisa, ni inventes horarios, sin verlo en los resultados.
+- Correlativas ("qué necesito para cursar X", "qué materias pide X"): usá SIEMPRE correlativas_faltantes (es la
+  fuente exacta, por carrera); si el usuario no dijo qué aprobó, pasá materias_aprobadas vacío y listá las
+  correlativas que devuelve, por carrera. No las deduzcas de buscar_info ni de memoria.
 Reglas:
 - Nunca inventes datos que no estén en los resultados de las herramientas. Si no encontrás algo, decilo.
 - Si una materia es ambigua (varias materias con el mismo nombre), mostrá las opciones y preguntá cuál.
@@ -72,7 +75,11 @@ def buscar_materia(nombre_o_alias: str, id_cuatri: str | None = None) -> dict:
     """Busca una materia por nombre o alias (ej. "algebra 1", "analisis 2", "mate 1") y devuelve su carga
     horaria y las comisiones (id_comision, comision, turno) del cuatrimestre. Usala apenas el usuario
     nombra una materia. id_cuatri es opcional (ej. "2026_2c"); por defecto, el cuatrimestre vigente."""
-    return ha.buscar_materia(nombre_o_alias, id_cuatri=id_cuatri)
+    r = ha.buscar_materia(nombre_o_alias, id_cuatri=id_cuatri)
+    for m in r.get("materias", []):           # campos que el modelo no necesita (y gastan tokens)
+        m.pop("aliases_externos", None)
+        m.pop("score", None)
+    return r
 
 
 def info_comision(id_comision: int | None = None, materia: str | None = None,
@@ -155,7 +162,7 @@ def correlativas_faltantes(materia: str, materias_aprobadas: list[str] | None = 
 
 
 def buscar_info(consulta: str, tipos: list[str] | None = None, id_cuatri: str | None = None,
-                id_materia: str | None = None, incluir_pasados: bool = False, k: int = 4) -> dict:
+                id_materia: str | None = None, incluir_pasados: bool = False, k: int = 3) -> dict:
     """Busqueda semantica abierta sobre la informacion de la facultad. Usala para preguntas ambiguas o mal
     escritas, o cuando todavia no sabes de que materia/docente se habla ("quien da algebra a la noche",
     "cuando me anoto", "que materias hay en 2do anio de Datos", "mail de un profe").
@@ -172,7 +179,7 @@ def buscar_info(consulta: str, tipos: list[str] | None = None, id_cuatri: str | 
     return r
 
 
-MAX_CONTENIDO = 700   # caracteres por resultado de buscar_info (el plan gratis de Groq limita los tokens por minuto)
+MAX_CONTENIDO = 1200  # caracteres por resultado de buscar_info (el plan gratis de Groq limita los tokens por minuto)
 
 TOOLS = [buscar_materia, info_comision, proximas_fechas, chequear_solapamiento,
          armar_horario, correlativas_faltantes, buscar_info]
@@ -220,3 +227,22 @@ def consultar(bot, pregunta, historial=None, intentos=5):
                 raise
             print(f"   (límite de uso de Groq; reintento en {espera:.0f}s)", flush=True)
             time.sleep(espera)
+
+
+def compactar_historial(mensajes):
+    """Para los turnos siguientes de una charla, conserva solo lo que dijo el usuario y la respuesta final del
+    agente; descarta las llamadas a herramientas y sus resultados (son lo que mas tokens gasta y el plan
+    gratis de Groq limita a 8000 tokens por pedido). Si el usuario necesita un dato de nuevo, el agente
+    vuelve a consultarlo."""
+    from pydantic_ai.messages import ModelRequest, ModelResponse, TextPart, UserPromptPart
+    compacto = []
+    for m in mensajes:
+        if isinstance(m, ModelRequest):
+            textos = [p.content for p in m.parts if isinstance(p, UserPromptPart) and isinstance(p.content, str)]
+            if textos:
+                compacto.append(ModelRequest(parts=[UserPromptPart(content="\n".join(textos))]))
+        elif isinstance(m, ModelResponse):
+            textos = [p.content for p in m.parts if isinstance(p, TextPart) and p.content.strip()]
+            if textos:
+                compacto.append(ModelResponse(parts=[TextPart(content="\n".join(textos))]))
+    return compacto[-12:]     # y solo los ultimos turnos
