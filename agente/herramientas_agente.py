@@ -332,15 +332,20 @@ def info_comision(id_comision=None, materia=None, turno=None, id_cuatri=None,
 
             mid = fuertes[0]["id_materia"]
             cuatri = id_cuatri or cuatrimestre_vigente(cur)
-            sql = "SELECT id_comision FROM comision WHERE id_materia = %s AND id_cuatri = %s"
-            params = [mid, cuatri]
-            if turno:
-                sql += " AND turno = %s"
-                params.append(turno)
-            cur.execute(sql, params)
-            ids = [r[0] for r in cur.fetchall()]
+            cur.execute("SELECT id_comision, COALESCE(turno, '') FROM comision "
+                        "WHERE id_materia = %s AND id_cuatri = %s", [mid, cuatri])
+            filas = cur.fetchall()
+            if turno:       # la base guarda "Mañana"/"Noche": comparar sin mayusculas ni acentos
+                t = norm(turno)
+                ids = [i for i, tu in filas if norm(tu) == t or (t and norm(tu).startswith(t))]
+                if not ids:
+                    return {"encontrado": False, "comisiones": [], "materia": fuertes[0]["nombre"],
+                            "turnos_disponibles": sorted({tu for _, tu in filas if tu})}
+            else:
+                ids = [i for i, _ in filas]
             if not ids:
-                return {"encontrado": False, "comisiones": []}
+                return {"encontrado": False, "comisiones": [], "materia": fuertes[0]["nombre"],
+                        "motivo": f"la materia existe pero no tiene comisiones cargadas en {cuatri}"}
 
         cur.execute("""
             SELECT id_comision, id_materia, comision, turno, id_cuatri

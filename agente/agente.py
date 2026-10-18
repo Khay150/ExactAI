@@ -57,7 +57,21 @@ Tenés dos tipos de herramientas:
 - Correlativas ("qué necesito para cursar X", "qué materias pide X"): usá SIEMPRE correlativas_faltantes (es la
   fuente exacta, por carrera); si el usuario no dijo qué aprobó, pasá materias_aprobadas vacío y listá las
   correlativas que devuelve, por carrera. No las deduzcas de buscar_info ni de memoria.
+- Si una herramienta no encuentra la materia y trae `sugerencias`, mostráselas al usuario y preguntá cuál quiso
+  decir (puede haber un error de tipeo o otra forma de nombrarla). Con "estadística de datos" suele ser
+  "Intr. a la Estadística y Ciencia de Datos". Nunca respondas "no existe" sin haber ofrecido las sugerencias.
+- Respondé SOLO con materias, fechas, horarios y nombres que figuren en los resultados de las herramientas
+  que llamaste en este turno. Si una herramienta devuelve un error, algo vacío o pide algo que falta, decilo
+  o pedíselo al usuario; nunca completes la respuesta de memoria ni digas "según la fuente oficial" sin haberla
+  consultado. Si no podés responder con certeza, preferí decir que no lo sabés.
+- Estilo: español rioplatense correcto y breve. No agregues frases de relleno ni reglas que no estén en los
+  resultados (por ejemplo, explicaciones sobre cómo se cursa o se aprueba). Sobre correlativas decí solo cuáles
+  son y, si el usuario dijo qué aprobó, cuáles le faltan.
+- Si una comisión tiene bloques sin aula (lista de aulas vacía), decí que el aula todavía no está asignada/publicada;
+  no digas que no encontraste la materia.
+- Si info_comision devuelve turnos_disponibles, el turno pedido no existe: mostrá los que sí hay.
 Reglas:
+- Nunca menciones nombres de herramientas, ni cómo funcionan, al usuario.
 - Nunca inventes datos que no estén en los resultados de las herramientas. Si no encontrás algo, decilo.
 - Si una materia es ambigua (varias materias con el mismo nombre), mostrá las opciones y preguntá cuál.
 - Si faltan datos para una herramienta (p. ej. qué materias aprobó el usuario), preguntáselos.
@@ -71,6 +85,40 @@ Reglas:
 # y le pedimos nombres de materia en vez de ids internos cuando se puede.
 # ---------------------------------------------------------------------------
 
+
+def _sugerencias(nombre, k=4):
+    """Cuando no hay coincidencia exacta de nombre (error de tipeo, otra forma de decirlo), busca en el RAG
+    las materias mas parecidas para que el agente se las proponga al usuario."""
+    try:
+        r = _rag.buscar_info(nombre, tipos=["materia"], k=k)
+    except Exception:
+        return []
+    return [{"id_materia": x["id_materia"], "titulo": x["titulo"].replace("Materia: ", ""),
+             "tambien_conocida_como": _alias_de(x["contenido"])}
+            for x in r["resultados"] if x.get("id_materia")]
+
+
+def _alias_de(contenido):
+    """La linea 'También se la conoce como: ...' del documento de la materia (si tiene), recortada."""
+    for linea in contenido.splitlines():
+        if linea.startswith("También se la conoce como"):
+            return linea.split(":", 1)[1].strip()[:200]
+    return None
+
+
+def _con_sugerencias(resultado, nombre):
+    """Si la herramienta no encontro la materia, agrega sugerencias del RAG (no las elige por el usuario)."""
+    no_encontro = (resultado.get("encontrado") is False or
+                   "no encontre ninguna materia" in str(resultado.get("error", "")))
+    if no_encontro:
+        sug = _sugerencias(nombre)
+        if sug:
+            resultado["sugerencias"] = sug
+            resultado["nota"] = ("No hay una materia con ese nombre exacto. Estas son las mas parecidas: "
+                                 "preguntale al usuario cual quiso decir (no elijas por tu cuenta).")
+    return resultado
+
+
 def buscar_materia(nombre_o_alias: str, id_cuatri: str | None = None) -> dict:
     """Busca una materia por nombre o alias (ej. "algebra 1", "analisis 2", "mate 1") y devuelve su carga
     horaria y las comisiones (id_comision, comision, turno) del cuatrimestre. Usala apenas el usuario
@@ -79,7 +127,7 @@ def buscar_materia(nombre_o_alias: str, id_cuatri: str | None = None) -> dict:
     for m in r.get("materias", []):           # campos que el modelo no necesita (y gastan tokens)
         m.pop("aliases_externos", None)
         m.pop("score", None)
-    return r
+    return _con_sugerencias(r, nombre_o_alias)
 
 
 def info_comision(id_comision: int | None = None, materia: str | None = None,
@@ -89,7 +137,8 @@ def info_comision(id_comision: int | None = None, materia: str | None = None,
     `turno` solo si el usuario lo pidio: "manana", "tarde", "noche"). Usa `id_comision` solo para una
     comision puntual que ya conoces. Informa todas las comisiones que devuelva, sin omitir ninguna.
     Si la materia es ambigua devuelve las opciones: preguntale al usuario."""
-    return ha.info_comision(id_comision=id_comision, materia=materia, turno=turno, id_cuatri=id_cuatri)
+    r = ha.info_comision(id_comision=id_comision, materia=materia, turno=turno, id_cuatri=id_cuatri)
+    return _con_sugerencias(r, materia) if materia else r
 
 
 TIPOS_EVENTO = ["Inscripción", "Exámenes", "Publicación", "Clases", "Receso", "Encuestas", "Semana de las Ciencias"]
@@ -133,17 +182,58 @@ def armar_horario(materias: list[str], id_cuatri: str | None = None, preferencia
     `preferencias` opcional: {"turno": "noche", "evitar_dias": ["viernes"], "no_antes_de": "10:00",
     "no_despues_de": "20:00"}. Las preferencias penalizan (no excluyen): devuelve las mejores opciones con
     su penalidad (0 = cumple todo) y el `horario` de cada comision."""
-    return ha.armar_horario(materias, id_cuatri=id_cuatri, preferencias=preferencias, max_resultados=max_resultados)
+    r = ha.armar_horario(materias, id_cuatri=id_cuatri, preferencias=preferencias, max_resultados=max_resultados)
+    if "no encontre ninguna materia" in str(r.get("error", "")):
+        r = _con_sugerencias(r, str(r["error"]).split("'")[1] if "'" in str(r["error"]) else " ".join(materias))
+    return r
 
 
-def correlativas_faltantes(materia: str, materias_aprobadas: list[str] | None = None,
-                           id_carrera: str | None = None) -> dict:
-    """Que correlativas le faltan al usuario para cursar `materia`, dadas las materias que ya aprobo
-    (nombres). Las correlativas pueden variar segun la carrera. Si no sabes que aprobo, preguntaselo."""
+def _como_lista(x):
+    """El modelo a veces manda una lista como texto ('[]', '["Analisis I"]', 'Analisis I, Algebra I')."""
+    import json
+    if x is None:
+        return []
+    if isinstance(x, (list, tuple)):
+        return [str(i).strip() for i in x if str(i).strip()]
+    t = str(x).strip()
+    if not t or t in ("[]", "null", "None"):
+        return []
+    try:
+        v = json.loads(t)
+        if isinstance(v, list):
+            return [str(i).strip() for i in v if str(i).strip()]
+    except ValueError:
+        pass
+    return [p.strip() for p in t.replace(";", ",").split(",") if p.strip()]
+
+
+def _id_carrera(texto):
+    """'lcd', 'datos', 'Ciencias de Datos'... -> id de carrera ('lcd'); None si no hay una coincidencia clara."""
+    import json
+    if not texto:
+        return None
+    t = ha.norm(texto)
+    try:
+        carreras = json.load(open(ha.DATA_DIR / "carreras_materias.json", encoding="utf-8"))["carreras"]
+    except Exception:
+        return None
+    for c in carreras:
+        if t == c["id"]:
+            return c["id"]
+    hallo = [c["id"] for c in carreras if t and (t in ha.norm(c["nombre"]) or ha.norm(c["nombre"]) in t)]
+    return hallo[0] if len(hallo) == 1 else None
+
+
+def correlativas_faltantes(materia: str, materias_aprobadas: list[str] | str | None = None,
+                           carrera: str | None = None) -> dict:
+    """Que correlativas necesita `materia` y cuales le faltan al usuario, dadas las materias que ya aprobo
+    (nombres; vacio si no dijo ninguna). `carrera` es opcional ("Ciencias de Datos", "lcd"...): solo
+    pasala si el usuario la nombro; si no, devuelve el resultado de cada carrera, porque las correlativas
+    pueden variar. Si la materia no se encuentra, trae `sugerencias`: mostraselas al usuario."""
     def resolver(nombre):
         cands = ha.resolver_materia(nombre)
         if not cands:
-            return None, {"error": f"no encontre ninguna materia para '{nombre}'"}
+            return None, _con_sugerencias({"error": f"no encontre ninguna materia para '{nombre}'"}, nombre)
         fuertes = [c for c in cands if c["score"] == cands[0]["score"]]
         if len(fuertes) > 1:
             return None, {"ambiguo": True, "materia_pedida": nombre, "opciones": fuertes}
@@ -153,12 +243,17 @@ def correlativas_faltantes(materia: str, materias_aprobadas: list[str] | None = 
     if err:
         return err
     aprobadas = []
-    for n in materias_aprobadas or []:
+    for n in _como_lista(materias_aprobadas):
         aid, err = resolver(n)
         if err:
             return err
         aprobadas.append(aid)
-    return ha.correlativas_faltantes(mid, materias_aprobadas=aprobadas, id_carrera=id_carrera)
+    id_carrera = _id_carrera(carrera)
+    r = ha.correlativas_faltantes(mid, materias_aprobadas=aprobadas, id_carrera=id_carrera)
+    if id_carrera and not r.get("resultado"):          # la carrera pedida no tiene esa materia: mostrar todas
+        r = ha.correlativas_faltantes(mid, materias_aprobadas=aprobadas)
+        r["nota"] = "La carrera pedida no tiene correlativas registradas para esa materia; se muestran todas las carreras."
+    return r
 
 
 def buscar_info(consulta: str, tipos: list[str] | None = None, id_cuatri: str | None = None,
@@ -202,13 +297,20 @@ def crear_agente(modelo=None) -> Agent:
     return Agent(modelo or construir_modelo(), instructions=SYSTEM_PROMPT, tools=TOOLS, retries=2)
 
 
+MAX_PASOS = 12        # pedidos al modelo por pregunta (cada tool call + su respuesta cuenta como uno)
+TIMEOUT_LLM = 60      # segundos de espera por cada pedido a la API
+
+
 def consultar(bot, pregunta, historial=None, intentos=5):
     """bot.run_sync con reintentos cuando Groq limita la velocidad (error 429: tokens por minuto)."""
     import re
     import time
+    from pydantic_ai.usage import UsageLimits
     for n in range(intentos):
         try:
-            return bot.run_sync(pregunta, message_history=historial)
+            return bot.run_sync(pregunta, message_history=historial,
+                                usage_limits=UsageLimits(request_limit=MAX_PASOS),   # corta si el modelo da vueltas
+                                model_settings={"timeout": TIMEOUT_LLM})          # y si Groq no contesta
         except Exception as e:
             msg = str(e)
             if "429" not in msg and "rate limit" not in msg.lower():

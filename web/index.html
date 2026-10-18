@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>eXACTai</title>
+<style>
+  :root {
+    --bg: #f6f7f4; --panel: #ffffff; --ink: #1c2321; --muted: #66726d; --line: #e1e5e0;
+    --accent: #0f6b57; --accent-ink: #ffffff; --accent-soft: #e3f1ec;
+    --user: #0f6b57; --user-ink: #ffffff; --bot: #ffffff; --err: #a63a2b; --err-soft: #fbeae7;
+    --shadow: 0 1px 2px rgba(20,30,25,.06), 0 6px 20px rgba(20,30,25,.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121715; --panel: #1a211e; --ink: #e8ece9; --muted: #92a09a; --line: #2b3531;
+      --accent: #4fc3a1; --accent-ink: #0c1a15; --accent-soft: #1f322c;
+      --user: #2c8a72; --user-ink: #ffffff; --bot: #1a211e; --err: #f08a7a; --err-soft: #3a2420;
+      --shadow: none;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    display: flex; flex-direction: column;
+  }
+  header {
+    display: flex; align-items: center; gap: 12px; padding: 12px 16px;
+    background: var(--panel); border-bottom: 1px solid var(--line);
+  }
+  .logo { font-weight: 700; font-size: 1.25rem; letter-spacing: -.02em; }
+  .logo b { color: var(--accent); font-weight: 800; }
+  .sub { color: var(--muted); font-size: .85rem; flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  button { font: inherit; cursor: pointer; }
+  .ghost {
+    border: 1px solid var(--line); background: transparent; color: var(--ink);
+    padding: 6px 12px; border-radius: 999px; font-size: .85rem;
+  }
+  .ghost:hover { background: var(--accent-soft); }
+
+  main { flex: 1; overflow-y: auto; scroll-behavior: smooth; }
+  .col { max-width: 760px; margin: 0 auto; padding: 20px 16px 12px; display: flex; flex-direction: column; gap: 14px; }
+
+  .hola { text-align: center; padding: 28px 0 8px; }
+  .hola h1 { margin: 0 0 6px; font-size: 1.6rem; letter-spacing: -.02em; }
+  .hola p { margin: 0 auto; max-width: 46ch; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 18px; }
+  .chip {
+    border: 1px solid var(--line); background: var(--panel); color: var(--ink);
+    padding: 8px 14px; border-radius: 999px; font-size: .9rem; text-align: left;
+  }
+  .chip:hover { border-color: var(--accent); background: var(--accent-soft); }
+
+  .msg { display: flex; flex-direction: column; max-width: 100%; }
+  .msg.user { align-items: flex-end; }
+  .burbuja {
+    padding: 10px 14px; border-radius: 16px; max-width: min(100%, 640px); overflow-wrap: anywhere;
+  }
+  .user .burbuja { background: var(--user); color: var(--user-ink); border-bottom-right-radius: 4px; white-space: pre-wrap; }
+  .bot .burbuja { background: var(--bot); border: 1px solid var(--line); border-bottom-left-radius: 4px; box-shadow: var(--shadow); max-width: 100%; }
+  .bot.error .burbuja { background: var(--err-soft); border-color: var(--err); color: var(--err); }
+
+  .burbuja > :first-child { margin-top: 0; }
+  .burbuja > :last-child { margin-bottom: 0; }
+  .burbuja p, .burbuja ul, .burbuja ol { margin: .5em 0; }
+  .burbuja ul, .burbuja ol { padding-left: 1.3em; }
+  .burbuja h1, .burbuja h2, .burbuja h3, .burbuja h4 { margin: .8em 0 .3em; font-size: 1em; }
+  .burbuja code { background: var(--accent-soft); padding: 1px 5px; border-radius: 4px; font-size: .9em; }
+  .burbuja .tabla { overflow-x: auto; margin: .6em 0; }
+  .burbuja table { border-collapse: collapse; font-size: .9rem; min-width: 100%; }
+  .burbuja th, .burbuja td { border: 1px solid var(--line); padding: 5px 9px; text-align: left; vertical-align: top; }
+  .burbuja th { background: var(--accent-soft); }
+  .burbuja a { color: var(--accent); }
+
+  .meta { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 4px 0; align-items: center; }
+  .tag { font-size: .72rem; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; }
+  .reintentar { font-size: .8rem; margin: 6px 4px 0; align-self: flex-start; }
+
+  .puntos { display: inline-flex; gap: 4px; padding: 4px 0; }
+  .puntos i { width: 7px; height: 7px; border-radius: 50%; background: var(--muted); animation: salto 1.1s infinite ease-in-out; }
+  .puntos i:nth-child(2) { animation-delay: .15s; } .puntos i:nth-child(3) { animation-delay: .3s; }
+  @keyframes salto { 0%, 70%, 100% { opacity: .25; transform: translateY(0); } 35% { opacity: 1; transform: translateY(-3px); } }
+  @media (prefers-reduced-motion: reduce) { .puntos i { animation: none; opacity: .6; } main { scroll-behavior: auto; } }
+
+  footer { background: var(--panel); border-top: 1px solid var(--line); padding: 10px 16px calc(10px + env(safe-area-inset-bottom)); }
+  form { max-width: 760px; margin: 0 auto; display: flex; gap: 8px; align-items: flex-end; }
+  textarea {
+    flex: 1; resize: none; max-height: 140px; padding: 10px 14px; font: inherit; color: var(--ink);
+    background: var(--bg); border: 1px solid var(--line); border-radius: 14px; outline: none;
+  }
+  textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+  .enviar {
+    border: 0; background: var(--accent); color: var(--accent-ink); font-weight: 600;
+    padding: 10px 18px; border-radius: 14px; height: 44px;
+  }
+  .enviar:disabled { opacity: .45; cursor: default; }
+  .aviso { max-width: 760px; margin: 6px auto 0; color: var(--muted); font-size: .72rem; text-align: center; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">e<b>XACT</b>ai</div>
+  <div class="sub">Materias, horarios, aulas, docentes y fechas de Exactas</div>
+  <button class="ghost" id="nueva" type="button">Nueva conversación</button>
+</header>
+
+<main id="scroll" aria-live="polite">
+  <div class="col" id="chat">
+    <section class="hola" id="hola">
+      <h1>¿Qué querés saber?</h1>
+      <p>Preguntame por horarios y aulas, quién da una materia, fechas de inscripción y finales, correlativas o armá tu horario.</p>
+      <div class="chips" id="chips"></div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <form id="form" autocomplete="off">
+    <textarea id="entrada" rows="1" maxlength="1000" placeholder="Escribí tu pregunta…" aria-label="Tu pregunta"></textarea>
+    <button class="enviar" id="enviar" type="submit">Enviar</button>
+  </form>
+  <div class="aviso">Las respuestas las genera una IA con datos de la facultad; ante la duda, confirmá en la web oficial.</div>
+</footer>
+
+<script src="/static/marked.min.js"></script>
+<script src="/static/purify.min.js"></script>
+<script>
+const SUGERENCIAS = [
+  "¿A qué hora y en qué aula se cursa Física 4?",
+  "¿Cuándo son los finales de diciembre?",
+  "¿Quién da Álgebra a la noche?",
+  "Armame un horario con Análisis II, Álgebra I y Física 4 sin cursar los viernes",
+  "¿Qué necesito para cursar Análisis II?",
+  "¿Cuándo abre la inscripción a materias?",
+];
+const ETIQUETAS = {
+  buscar_materia: "materias", info_comision: "comisiones y horarios", proximas_fechas: "calendario",
+  chequear_solapamiento: "solapamientos", armar_horario: "armado de horario",
+  correlativas_faltantes: "correlativas", buscar_info: "búsqueda general",
+};
+
+const $ = (id) => document.getElementById(id);
+const chat = $("chat"), scroll = $("scroll"), entrada = $("entrada"), btn = $("enviar");
+let enEspera = false;
+
+function nuevoId() {
+  return (crypto.randomUUID ? crypto.randomUUID() : String(Date.now()) + Math.random().toString(16).slice(2)).replace(/-/g, "");
+}
+let sesion = null;
+try { sesion = sessionStorage.getItem("exactai_sesion"); } catch (e) {}
+if (!sesion) { sesion = nuevoId(); try { sessionStorage.setItem("exactai_sesion", sesion); } catch (e) {} }
+
+function escapar(t) {
+  return t.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+function renderMd(texto) {
+  if (window.marked && window.DOMPurify) {
+    const div = document.createElement("div");
+    div.innerHTML = DOMPurify.sanitize(marked.parse(texto, { breaks: true, gfm: true }), { ADD_ATTR: ["target"] });
+    div.querySelectorAll("a").forEach((a) => { a.target = "_blank"; a.rel = "noopener noreferrer"; });
+    div.querySelectorAll("table").forEach((t) => {
+      const w = document.createElement("div"); w.className = "tabla"; t.replaceWith(w); w.appendChild(t);
+    });
+    return div;
+  }
+  const div = document.createElement("div");           // sin internet para las librerias: texto plano
+  div.style.whiteSpace = "pre-wrap"; div.innerHTML = escapar(texto);
+  return div;
+}
+
+function agregar(rol, contenido, opts = {}) {
+  const m = document.createElement("div");
+  m.className = "msg " + rol + (opts.error ? " error" : "");
+  const b = document.createElement("div"); b.className = "burbuja";
+  if (typeof contenido === "string") {
+    if (rol === "user") b.textContent = contenido; else b.appendChild(renderMd(contenido));
+  } else b.appendChild(contenido);
+  m.appendChild(b);
+  if (opts.tools && opts.tools.length) {
+    const meta = document.createElement("div"); meta.className = "meta";
+    opts.tools.forEach((t) => { const s = document.createElement("span"); s.className = "tag"; s.textContent = ETIQUETAS[t] || t; meta.appendChild(s); });
+    m.appendChild(meta);
+  }
+  chat.appendChild(m);
+  scroll.scrollTop = scroll.scrollHeight;
+  return m;
+}
+
+function puntos() {
+  const d = document.createElement("span"); d.className = "puntos"; d.setAttribute("aria-label", "Escribiendo");
+  d.innerHTML = "<i></i><i></i><i></i>"; return d;
+}
+
+async function enviar(texto) {
+  texto = texto.trim();
+  if (!texto || enEspera) return;
+  const hola = $("hola"); if (hola) hola.remove();
+  enEspera = true; btn.disabled = true;
+  agregar("user", texto);
+  entrada.value = ""; ajustarAlto();
+  const espera = agregar("bot", puntos());
+  try {
+    const ctl = new AbortController(); const corte = setTimeout(() => ctl.abort(), 170000);
+    const r = await fetch("/api/chat", {
+      method: "POST", headers: { "Content-Type": "application/json" }, signal: ctl.signal,
+      body: JSON.stringify({ session_id: sesion, mensaje: texto }),
+    }).finally(() => clearTimeout(corte));
+    let datos = {}; try { datos = await r.json(); } catch (e) {}
+    espera.remove();
+    if (!r.ok) throw new Error(datos.detail || "Error " + r.status);
+    agregar("bot", datos.respuesta, { tools: datos.herramientas });
+  } catch (e) {
+    espera.remove();
+    const m = agregar("bot", e.name === "AbortError" ? "La respuesta tardó demasiado." : e.message === "Failed to fetch" ? "No me puedo conectar con el servidor." : e.message, { error: true });
+    const re = document.createElement("button"); re.className = "ghost reintentar"; re.type = "button"; re.textContent = "Reintentar";
+    re.onclick = () => { const u = m.previousElementSibling; m.remove(); if (u && u.classList.contains("user")) u.remove(); enviar(texto); };
+    m.appendChild(re);
+  } finally {
+    enEspera = false; btn.disabled = false; entrada.focus();
+  }
+}
+
+function ajustarAlto() {
+  entrada.style.height = "auto";
+  entrada.style.height = Math.min(entrada.scrollHeight, 140) + "px";
+}
+
+$("form").addEventListener("submit", (e) => { e.preventDefault(); enviar(entrada.value); });
+entrada.addEventListener("input", ajustarAlto);
+entrada.addEventListener("keydown", (e) => {
+  if (e.key === "Enter" && !e.shiftKey && !e.isComposing) { e.preventDefault(); enviar(entrada.value); }
+});
+$("nueva").addEventListener("click", () => {
+  fetch("/api/chat/" + sesion, { method: "DELETE" }).catch(() => {});
+  sesion = nuevoId(); try { sessionStorage.setItem("exactai_sesion", sesion); } catch (e) {}
+  location.reload();
+});
+
+SUGERENCIAS.forEach((s) => {
+  const c = document.createElement("button"); c.type = "button"; c.className = "chip"; c.textContent = s;
+  c.onclick = () => enviar(s); $("chips").appendChild(c);
+});
+entrada.focus();
+</script>
+</body>
+</html>
